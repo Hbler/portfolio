@@ -1,0 +1,138 @@
+{
+  "menu": {
+    "about": "about",
+    "projects": "projects",
+    "links": "links & download",
+    "theme": {
+      "dark": "dark",
+      "light": "light"
+    },
+    "lang": {
+      "en": "en",
+      "pt-br": "pt-br"
+    },
+    "talk": "let's talk"
+  },
+  "landing": {
+    "text": "Hello, I'm Hugo a <span>Possibilities Scientist</span> working in the intersection of development and design, experimenting and learning with the new and the traditional to <span>create original expereriences</span> and <span>systematize the chaos</span> of our time.",
+    "scroll": "scroll to learn more",
+    "update": "updated in: JUL / 22"
+  },
+  "about": {
+    "title": "About",
+    "part1": " I've always had some sort of connection with technology, from an early age I liked tinkering and experimenting, I even won gold medals (two) on a national computing competition (OBI), but when it came the time to choose I ended up choosing the design path. And even in that area technology was always present, some new software or a script that would automate a task.",
+    "part2": "So this year I “gave in” and started studying to become a Full Stack Web Developer at Kenzie Academy Brasil, where I've learned about Front End development and project versioning, and am learning about Back End development.",
+    "part3": "And in parallel studying in other courses to learn programming languages that we won't see there, like Go (Golang), concepts like TDD (test driven development), and more about algorithms and data structures.",
+    "techs": "Techs & Softwares"
+  },
+  "projects": {
+    "title": "Projects",
+    "menu": {
+      "all": "All",
+      "conclusion": "Module Conclusion Project",
+      "study": "Study Project",
+      "personal": "Personal Project"
+    },
+    "list": {
+      "color": {
+        "title": "Color me... uncertain",
+        "type": "Personal Project",
+        "description": "A color matching game, developed with HTML5, vanilla JavaScript and CSS3, to practice what I had learned at the time about these technologies. Although it started as a game, as it evolved I came to look at this project as a piece of generative art, that happens to have a rounds and points system."
+      },
+      "bwlgari": {
+        "title": "Bwlgari",
+        "type": "Module Conclusion Project",
+        "description": "The project that capped the first course module at Kenzie Academy Brasil, using HTML5, vanilla JavaScript and CSS3, I createad an one page e-commerce with layered filters, cart, and wish-list with products by the brand BVLGARI."
+      },
+      "genius": {
+        "title": "GENIUS",
+        "type": "Study Project",
+        "description": "A great project to sharpen our logic, in this one the taks was to reproduce the game genius, but as I like to experiment with the possibilities went a bit further and created a point system and two more difficulty levels in which the player gets more points per round but the sequence is played gradually fester."
+      },
+      "oregon": {
+        "title": "Oregon Trail",
+        "type": "Study Project",
+        "description": "This project was the first one were I applyed the Object Oriented Programming paradigm with JavaScript, it is another I took a bit further, I decided to represent visually what was happening with the classes and methods, and so I did using HTML5 via DOM manipulation with JavaScript and CSS3."
+      },
+      "products": {
+        "title": "Products List",
+        "type": "Study Project",
+        "description": "Another e-commerc project, this one went through three iterations, the first in which we just listed the items, the second where we added the cart, and a third in which I converted the whole project the object oriented programming paradigm. As I tend to do, this one I took one step further improving on the CSS."
+      },
+      "music": {
+        "title": "Kenzie Music",
+        "type": "Study Project",
+        "description": "This project was very fun to do, was my first contact with APIs and asynchronicity, so naturally I got excited and instead of just creating a search bar for the music titles, I developed a simple playlist where the user could add, remove (to another list) and delete the searched music."
+      },
+      "blog": {
+        "title": "Community Blog",
+        "type": "Study Project",
+        "description": "This project was great to learn more about and practice form validation and API integration. It was developed with vanilla JavaScript, HTML5 and CSS3, and in it the task was to create a community blog in which only registered users could post, and only the owner could edit or delete a post."
+      },
+      "reproduction": {
+        "title": "Layout Reproduction",
+        "type": "Study Project",
+        "description": "On this project the challenge was to reproduce a very well known layout (Netflix) using only vanilla Javascript, HTML5 and CSS3. I enjoyed doing this one because I’ve always seen people doing it but never did it myself. By the end it was very apparent why people do it, I’ve learned a lot!"
+      },
+      "food": {
+        "title": "Kenzie Food",
+        "type": "Module Conclusion Project",
+        "description": "This was a team project, in which I had the opportunity to be the Tech Leader following the agile methodology. On this one our team was taked to create a food e-commerce applying the content of the module: API, OOP, LocalStorage, Mobile First. Using vanilla JavaScript, HTML5 and CSS3."
+      },
+      "nu": {
+        "title": "Nu Kenzie",
+        "type": "Study Project",
+        "description": "A interesting project, was one of the first I developed using React and it’s states, it has two iterations, one without and another with the Styled Components lib. On this one the application simulates a digital wallet in which the user can register their expenses and profits."
+      },
+      "burguer": {
+        "title": "Kenzie Burguer",
+        "type": "Study Project",
+        "description": "With this project I practiced the use of API with React, learning more about react hooks, and the Axios lib. In this one I also experimented more with the Styled Components lib to create a light and a dark theme changed by the user. In it we created a fast-food e-commerce with products from an API."
+      },
+      "form": {
+        "title": "Form Practice",
+        "type": "Study Project",
+        "description": "I went a bit experimental on this one, the project was designed for us to prectice with forms and form validation in React, using external libs, but as I often do, I took it futher and played a bit with the Framer Motion lib to create an “realxig experience” for the registered users."
+      },
+      "hub": {
+        "title": "Kenzie Hub",
+        "type": "Study Project",
+        "description": "On this project the objective was to integrate to practices we had in other projects, forms and API in a single React project. The application then simulates a platform in which a user can check out the tech stack and level of other devs, and also register themselves and their tech stack."
+      },
+      "redux": {
+        "title": "Kenzieshop - Redux",
+        "type": "Study Project",
+        "description": "On this project I had “carte blache” to pick a theme for the e-commerce, so I decided to revisit the project I did for the conclusion of my first module in the course, and refactor it now using React, Reudx, w/ Thunk as middleware, and Styled Components."
+      },
+      "context": {
+        "title": "Kenzieshop - Context",
+        "type": "Study Project",
+        "description": "This project is actually the second iteration of another one in which I used Redux w/ Thunk to create a e-commerce, but I ended up not only changing the state management to React’s Context API but also the theme of the store."
+      },
+      "relativi": {
+        "title": "Relativi",
+        "type": "Module Conclusion Project",
+        "description": "Another team project, in this one I had the opportunity to act as Product Owner following the agile methodology. Our team decided to create an health & wellness application, that could benefit not only the user but also service providers, with a platform to register and search for physical activities, using React, Redux, Styled Components, Axios, and JSON-Server to simulate a database hosted in Heroku."
+      }
+    },
+    "buttons": {
+      "repo": "Repository",
+      "app": "Application",
+      "video": "Video"
+    }
+  },
+  "links": {
+    "title1": "Links & Download",
+    "title2": "Let's talk",
+    "linkedin": "LinkedIn is where I share most of my projects and experiments, so feel free to follow my journey, discover more about projects, or just chat.",
+    "github": "There you’ll find all repositories of the projects listed here and also of others in progress or in huatus.",
+    "resume": {
+      "title": "Resumé",
+      "text": "Click download the latest version of my resumé."
+    },
+    "whats": "Click to start a chat, voice or video call via WhatsApp.",
+    "telegram": "Click to start a chat, voice or video call, or search for <span>hblerdev</span> in Telegram.",
+    "email": "Have a feedback, idea, or a proposal? Send me an email, and we’ll keep in touch.",
+    "thanks": "Thank You!"
+  }
+}

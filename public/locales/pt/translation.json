@@ -1,0 +1,138 @@
+{
+  "menu": {
+    "about": "sobre",
+    "projects": "projetos",
+    "links": "links & download",
+    "theme": {
+      "dark": "escuro",
+      "light": "claro"
+    },
+    "lang": {
+      "en": "en",
+      "pt-br": "pt-br"
+    },
+    "talk": "vamos conversar"
+  },
+  "landing": {
+    "text": "Olá, Eu sou o Hugo um <span>Cientista de Possibilidades</span> atuando na intercessão de desenvolvimento e design, eperimentando e aprendendo com o novo e o tradicional para <span>criar experiências originais</span> e <span>sistematizar o caos</span> em do nosso tempo.",
+    "scroll": "role para saber mais",
+    "update": "atualizado em: JUL / 22"
+  },
+  "about": {
+    "title": "Sobre",
+    "part1": " Sempre tive algum tipo de ligação com tecnologia, desde cedo gostei de mexer e experimentar, até ganhei medalhas de ouro (duas) em uma competição nacional de informática (OBI), mas na hora de escolher uma graduação acabei seguindo o caminho do Design. E mesmo nessa área a tecnologia sempre esteve presente, algum software novo ou um script que automatizasse uma tarefa.",
+    "part2": "Então este ano eu “cedi” ao chamado da tecnologia e comecei a estudar para me tornar um Desenvolvedor Web Full Stack na Kenzie Academy Brasil, onde aprendi sobre desenvolvimento Front End e versionamento de projetos, e estou aprendendo sobre desenvolvimento Back End.",
+    "part3": "Em paralelo fazendo cursos de liguagens que não teremos no curso como a Go (Golang), conceitos como TDD (desenvolvimento orientado por testes), e mais sobre algorítimos e estruturas de dados.",
+    "techs": "Tecnologias & Softwares"
+  },
+  "projects": {
+    "title": "Projetos",
+    "menu": {
+      "all": "Todos",
+      "conclusion": "Projeto de Conclusão de Módulo",
+      "study": "Projeto de Studo",
+      "personal": "Projeto Pessoal"
+    },
+    "list": {
+      "color": {
+        "title": "Color me... uncertain",
+        "type": "Projeto Pessoal",
+        "description": "Um jogo de cobinação de cores, desenvolvido com HTML5, JavaScript puro e CSS3, para praticar o que eu tinha aprendido até aquele momento sobre essas tecnologias. E embora tenha iniciado como um jogo, com o desenvolvimento do projeto eu passei a enxergar o projeto como “obra de arte generativa”, que tem um sistema de pontos e rounds."
+      },
+      "bwlgari": {
+        "title": "Bwlgari",
+        "type": "Projeto de Conclusão de Módulo",
+        "description": "O projeto que encerrou o primeiro módulo do curso na Kenzie Academy Brasil, utilizando HTML5, JavaScript puro, e CSS3, Eu criei um e-ecomerce de página única com dois tipos de filtros, carrinho, e lista de desejos, com produtos da marca BVLGARI."
+      },
+      "genius": {
+        "title": "GENIUS",
+        "type": "Projeto de Estudo",
+        "description": " Um ótimo projeto para afiar nossa lógica, nesse o objetivo era reproduzir o jogo Genius, mas como gosto de experimentar as possibilidades eu fui um pouco além e criei um sistema de pntuação e mais dois níveis de dificuldade em que o jogador tem mais pontos por round mas a sequêcia é exibida em menos tempo."
+      },
+      "oregon": {
+        "title": "Oregon Trail",
+        "type": "Projeto de Estudo",
+        "description": "TEste projeto foi o primeiro no qual eu apliquei o paradigma de Programação Orientada ao Objeto com JavaSccript, e é mais um que fui além do enunciado, Eu decidi representar visualmente as modificações nas classes, e assim o fiz utilizando HTML5 e manipulação de DOM com JavaScript e CSS3."
+      },
+      "products": {
+        "title": "Lista de Produtos",
+        "type": "Projeto de Estudo",
+        "description": "Outro projeto de e-commerce, e esse teve três iterações, a primeira em que eu apenas listava os itens, a segunda em que eu adicionei o carrinho, e a terceira em que converti todo o projeto para o paradigma de programação orientada ao objeto. Como costumo fazer, eu fui além do que pedia o enunciado melhorando o CSS disponibilizado."
+      },
+      "music": {
+        "title": "Kenzie Music",
+        "type": "Projeto de Estudo",
+        "description": "Esse projeto foi bastante divertido, foi o meu primeiro contato com APIs e assincronia, então naturalmente eu fiquei empolgado e ao invés de criar apenas uma barra para pesquisar os nomes das músicas, eu desenvolvi uma playlist simpes em que a pessoa pode adicionar, remover (para outra lista), e deletar a música pesquisada."
+      },
+      "blog": {
+        "title": "Blog Comunitário",
+        "type": "Projeto de Estudo",
+        "description": "Este projeto foi ótimo para aprender mais e praticar validação de formulário e uso de API. Foi desenvolido com JavaScript puro, HTML5 e CSS3. O objetivo era criar um blog comunitário em que apenas usuários cadastrados podem postar, e apenas o dono pode editar ou apagar um post."
+      },
+      "reproduction": {
+        "title": "Reproduzindo Layout",
+        "type": "Projeto de Estudo",
+        "description": "Nesse projeto o desafio foi reproduzir um layout conhecido (Netflix) utilizando apenas JavaScript puro, HTML5 e CSS3. Eu gostei muito de fazer esse pois eu sempre vi outras pessoas fazendo mas nunca tinha feito, e quando terminei ficou claro por que essa prática é popular, aprendi bastante!"
+      },
+      "food": {
+        "title": "Kenzie Food",
+        "type": "Projeto de Conclusão de Módulo",
+        "description": "Esse foi um projeto em equipe, no qual eu tive a oportunidade de atuar como Tech Leader seguindo metodologia ágil. Nesse nossa equipe tinha o objetivo de criar um e-commerce aplicando o todo conteúdo do móedulo: API, OOP, LocalStorage, Mobile First. Utilizando JavaScript puro, HTML5 e CSS3."
+      },
+      "nu": {
+        "title": "Nu Kenzie",
+        "type": "Projeto de Estudo",
+        "description": "Um projeto interessante, foi um dos primeiros utilizando React e os estados (states), e tem duas iterações, uma sem e outra com a lib Styled Components. Nesse projeto a aplicação simula uma carteira digital em que o usuário pode registrar lucros e gastos."
+      },
+      "burguer": {
+        "title": "Kenzie Burguer",
+        "type": "Projeto de Estudo",
+        "description": "With this project I practiced the use of API with React, learning more about react hooks, and the Axios lib. In this one I also experimented more with the Styled Components lib to create a light and a dark theme changed by the user. In it we created a fast-food e-commerce with products from an API."
+      },
+      "form": {
+        "title": "Form Practice",
+        "type": "Projeto de Estudo",
+        "description": "Eu fui para uma rota mais experimental nesse, o objetivo do projeto era a prática de formulários e validações em React utilizando libs. externas, mas como faço frequentemente, fui além do que pedia o enunciado, e brinquei um pouco com a lib. Framer Motion para criar uma “experiência realxante” para os usuários registrados."
+      },
+      "hub": {
+        "title": "Kenzie Hub",
+        "type": "Projeto de Estudo",
+        "description": "Nesse projeto o objetivo era integrar as praticas que tivemos em outros projetos, (fomulários e API) em um único projeto de React. A aplicação então simula uma plataforma em que um usuário pode consultar as tecnologias e o nível de cada uma, que outros devs conhecem, e também se cadastrar para registrar suas técnologias."
+      },
+      "redux": {
+        "title": "Kenzieshop - Redux",
+        "type": "Projeto de Estudo",
+        "description": "Nesse projeto eu tinha carta-branca para escolher um tema para o e-comerce, então decidi revisitar o projeto que fiz na conclusão do primeiro módulo do curso, e refatorá-lo com React, Redux e Thunk como middleware, e Styled Components."
+      },
+      "context": {
+        "title": "Kenzieshop - Context",
+        "type": "Projeto de Estudo",
+        "description": "Esse projeto é uma segudna iteração the um outro projeto em que utilizei Redux com Thunk para criar um e-commerce, mas eu acabei não só refatorando o gerênciamento de estado para a Context API do React mas ambém o tema da loja."
+      },
+      "relativi": {
+        "title": "Relativi",
+        "type": "Module Conclusion Project",
+        "description": "Um outro projeto em equipe, e nesse tive a oportunidade de atuar como Product Owner seguindo a metodologia ágil. Nossa equipe decidiu criar uma aplicação coltada para saúde e bem-estar, que beneficia não apenas usuários mas também profissionais do setor, utilizando React, Redux, Styled Components, Axios, e JSON-Server para simular o banco de dados hospedado com Heroku."
+      }
+    },
+    "buttons": {
+      "repo": "Repositório",
+      "app": "Aplicação",
+      "video": "Vídeo"
+    }
+  },
+  "links": {
+    "title1": "Links & Download",
+    "title2": "Vamos conversar",
+    "linkedin": "No LinkedIn é onde posto a maioria dos projetos e experimentos, então fique a vontade para acompanhar essa jornada, descbrir mais proejtos, o apenas bater um papo.",
+    "github": "É onde você vai encontrar todos os repositórios dos projetos listados aqui, e também te projetos em desenvolvimento e em hiato.",
+    "resume": {
+      "title": "Currículo",
+      "text": "Clique para fazer o download da versão mais recente do meu currículo."
+    },
+    "whats": "Clique para enviar uma mensagem, fazer uma chamada de video ou voz por WhatsApp.",
+    "telegram": "Clique para enviar uma mensagem, fazer uma chamada de video ou voz, ou pesquise <span>hblerdev</span> no Telegram.",
+    "email": "Tem um feedback, ideia ou proposta? Me manda um email e manteremos contato.",
+    "thanks": "Agradeço sua visita!"
+  }
+}
