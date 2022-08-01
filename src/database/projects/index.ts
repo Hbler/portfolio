@@ -1,0 +1,98 @@
+export const projects = {
+  color: {
+    repo: "https://github.com/Hbler/color-me-uncertain",
+    type: "personal",
+    video: "https://www.youtube.com/watch?v=miVxjUJMRPk",
+    app: "https://hbler.github.io/color-me-uncertain/",
+  },
+  bwlgari: {
+    repo: "https://github.com/Hbler/ecommerce-joias",
+    type: "conclusion",
+    video: "https://www.youtube.com/watch?v=aFr6S5ZAdbA",
+    app: "https://hbler.github.io/ecommerce-joias/",
+  },
+  genius: {
+    repo: "https://github.com/Hbler/genius",
+    type: "study",
+    video: "https://www.youtube.com/watch?v=DnBFcNfDOdw&t=9s",
+    app: "https://hbler.github.io/genius/",
+  },
+  oregon: {
+    repo: "https://github.com/Hbler/oregon-trail",
+    type: "study",
+    video: "https://www.youtube.com/watch?v=N3BN98QW6Eg",
+    app: "https://hbler.github.io/oregon-trail/",
+  },
+  products: {
+    repo: "https://github.com/Hbler/products-list",
+    type: "study",
+    video: "https://www.youtube.com/watch?v=8b-CjqpR9GY",
+    app: "https://hbler.github.io/products-list/",
+  },
+  music: {
+    repo: "https://github.com/Hbler/kenzie-music",
+    type: "study",
+    video: "https://www.youtube.com/watch?v=3F5QOOeweS0",
+    app: "https://hbler.github.io/kenzie-music/",
+  },
+  blog: {
+    repo: "https://github.com/Hbler/community-blog",
+    type: "study",
+    video: "https://www.youtube.com/watch?v=rxKGb9pfPvw",
+    app: "https://hbler.github.io/community-blog/",
+  },
+  reproduction: {
+    repo: "https://github.com/Hbler/streaming-platform",
+    type: "study",
+    video: "https://www.youtube.com/watch?v=RM9MTVrMlvg",
+    app: "https://hbler.github.io/streaming-platform/",
+  },
+  food: {
+    repo: "https://github.com/Hbler/ecommerce-food-w-user",
+    type: "conclusion",
+    video: "https://www.youtube.com/watch?v=eXtEa0kw-BI",
+    app: "https://hbler.github.io/ecommerce-food-w-user/",
+  },
+  nu: {
+    repo: "https://github.com/Hbler/nu-kenzie",
+    type: "study",
+    video: "https://www.youtube.com/watch?v=-WK3nHlFp44",
+    app: "https://react-entrega-s1-nu-kenzie-hbler.vercel.app/",
+  },
+  burguer: {
+    repo: "https://github.com/Hbler/kenzie-burguer",
+    type: "study",
+    video: "https://www.youtube.com/watch?v=Os6ZchaPRcE",
+    app: "https://react-entrega-s1-hamburgueria-da-kenzie-hbler.vercel.app",
+  },
+  form: {
+    repo: "https://github.com/Hbler/react-form-practice",
+    type: "study",
+    video: "https://www.youtube.com/watch?v=1xRo0t_e6FA",
+    app: "https://react-entrega-s2-formulario-de-cadastro-hbler.vercel.app",
+  },
+  hub: {
+    repo: "https://github.com/Hbler/kenzie-hub",
+    type: "study",
+    video: "https://www.youtube.com/watch?v=-Y1kEKLQXjg",
+    app: "https://react-entrega-s2-kenzie-hub-hbler.vercel.app",
+  },
+  redux: {
+    repo: "https://github.com/Hbler/ecommerc-joias-v2",
+    type: "study",
+    video: "https://www.youtube.com/watch?v=LHiDQYuiZFk",
+    app: "https://react-entrega-s3-kenzieshop-hbler.vercel.app/",
+  },
+  context: {
+    repo: "https://github.com/Hbler/ecommerce-context-api",
+    type: "study",
+    video: "https://www.youtube.com/watch?v=zz6GplLKTrU",
+    app: " https://react-entrega-s3-kenzishop-com-context-api-hbler.vercel.app",
+  },
+  relativi: {
+    repo: "https://github.com/rel-ativi/relativi-web-app",
+    type: "conclusion",
+    video: "https://youtu.be/pNa_tcAePw4",
+    app: "https://relativi-web-app.vercel.app/",
+  },
+};
