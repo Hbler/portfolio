@@ -1,8 +1,10 @@
-import React, { Suspense } from "react";
+import React, { Suspense, useContext } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
 import { Trans, useTranslation } from "react-i18next";
+import { Teste } from "./components/teste";
+import { ThemeContext } from "./styles/theme";
 
 function App() {
   const { t, i18n } = useTranslation();
@@ -17,6 +19,9 @@ function App() {
     en: { nativeName: "English" },
     pt: { nativeName: "Português" },
   };
+
+  const { setCurrentTheme, getOppositTheme } = useContext(ThemeContext);
+
   return (
     <Suspense fallback="loading">
       <div className="App">
@@ -51,6 +56,13 @@ function App() {
             {t("menu.talk")}
           </a>
         </header>
+        <Teste
+          onClick={() => {
+            setCurrentTheme(getOppositTheme());
+          }}
+        >
+          <p>Hello World</p>
+        </Teste>
       </div>
     </Suspense>
   );

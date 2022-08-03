@@ -1,11 +1,17 @@
 import { createGlobalStyle } from "styled-components";
+
+import { Theme } from "./theme";
+
 import HaasGrotesk200 from "../assets/fonts/NeueHaasGrotDisp200.woff2";
 import HaasGrotesk300 from "../assets/fonts/NeueHaasGrotDisp300.woff2";
 import HaasGrotesk400 from "../assets/fonts/NeueHaasGrotDisp400.woff2";
 import HaasGrotesk500 from "../assets/fonts/NeueHaasGrotDisp500.woff2";
 import HaasGrotesk700 from "../assets/fonts/NeueHaasGrotDisp700.woff2";
 
-export const GlobalStyle = createGlobalStyle`
+const breakpoints = [576, 768, 992, 1200, 2000];
+export const mq = breakpoints.map((bp) => `@media (min-width: ${bp}px)`);
+
+export const GlobalStyle = createGlobalStyle<{ theme: Theme }>`
 @font-face {
     font-family: "Neue Haas Grotestk Display";
     font-style: normal;
@@ -38,6 +44,15 @@ export const GlobalStyle = createGlobalStyle`
 }
 
 *{
+    margin: 0;
+    padding: 0;
+    transition: 0.2s;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
     font-family: "Neue Haas Grotestk Display";
+}
+
+body{
+    background-color: ${({ theme: { bgOne } }) => bgOne};
 }
 `;
