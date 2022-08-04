@@ -4,6 +4,7 @@ import App from "./App";
 import "./i18n";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
+import { BrowserRouter } from "react-router-dom";
 
 import AppTheme from "./styles/theme";
 
@@ -13,7 +14,9 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <AppTheme>
-      <App />
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
     </AppTheme>
   </React.StrictMode>
 );

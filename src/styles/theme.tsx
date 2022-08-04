@@ -14,6 +14,7 @@ import { GlobalStyle } from "./global";
 type PalletMode = keyof typeof palletes;
 
 interface ThemeProviderData {
+  currentTheme: PalletMode;
   setCurrentTheme: Dispatch<SetStateAction<"light" | "dark">>;
   getOppositTheme: () => PalletMode;
 }
@@ -85,7 +86,9 @@ export default function AppTheme({ children }: Props) {
 
   return (
     <ThemeProvider theme={palletes[currentTheme]}>
-      <ThemeContext.Provider value={{ setCurrentTheme, getOppositTheme }}>
+      <ThemeContext.Provider
+        value={{ currentTheme, setCurrentTheme, getOppositTheme }}
+      >
         <GlobalStyle />
         {children}
       </ThemeContext.Provider>

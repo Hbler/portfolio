@@ -2,16 +2,16 @@
   "menu": {
     "about": "sobre",
     "projects": "projetos",
-    "links": "links & download",
+    "links": "links",
     "theme": {
-      "dark": "escuro",
-      "light": "claro"
+      "dark": "dark",
+      "light": "light"
     },
     "lang": {
       "en": "en",
       "pt-br": "pt-br"
     },
-    "talk": "vamos conversar"
+    "talk": "me chama"
   },
   "landing": {
     "text": "Olá, Eu sou o Hugo um <span>Cientista de Possibilidades</span> atuando na intercessão de desenvolvimento e design, eperimentando e aprendendo com o novo e o tradicional para <span>criar experiências originais</span> e <span>sistematizar o caos</span> em do nosso tempo.",

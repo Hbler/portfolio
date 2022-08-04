@@ -5,6 +5,7 @@ import "./App.css";
 import { Trans, useTranslation } from "react-i18next";
 import { Teste } from "./components/teste";
 import { ThemeContext } from "./styles/theme";
+import MobileMenu from "./components/menu";
 
 function App() {
   const { t, i18n } = useTranslation();
@@ -25,6 +26,7 @@ function App() {
   return (
     <Suspense fallback="loading">
       <div className="App">
+        <MobileMenu />
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1>{t("Welcome to React")}</h1>
@@ -57,6 +59,7 @@ function App() {
           </a>
         </header>
         <Teste
+          id="teste"
           onClick={() => {
             setCurrentTheme(getOppositTheme());
           }}

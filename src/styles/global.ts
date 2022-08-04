@@ -55,4 +55,37 @@ export const GlobalStyle = createGlobalStyle<{ theme: Theme }>`
 body{
     background-color: ${({ theme: { bgOne } }) => bgOne};
 }
+
+button{
+    border: none;
+    
+    :hover{
+        cursor: pointer;
+    }
+}
+
+a{
+    font-weight: 700;
+    text-decoration: none;
+    color: ${({ theme: { link } }) => link};
+
+    :hover{
+        color: ${({ theme: { highlight } }) => highlight};
+    }
+}
+
+ul, ol{
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0.8rem;
+}
 `;
