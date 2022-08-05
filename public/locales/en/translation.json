@@ -1,5 +1,6 @@
 {
   "menu": {
+    "nav": "navigation",
     "about": "about",
     "projects": "projects",
     "links": "links",

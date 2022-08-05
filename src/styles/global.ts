@@ -49,7 +49,7 @@ export const GlobalStyle = createGlobalStyle<{ theme: Theme }>`
     transition: 0.2s;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    font-family: "Neue Haas Grotestk Display";
+    font-family: "Neue Haas Grotestk Display", sans-serif;
 }
 
 body{

@@ -25,6 +25,9 @@ interface Props {
 
 export type Theme = {
   bgOne: string;
+  bgOneA70: string;
+  bgOneA50: string;
+  bgOneA30: string;
   bgTwo: string;
   link: string;
   text: string;
@@ -37,6 +40,9 @@ export type Theme = {
 
 const lightPallete: Theme = {
   bgOne: "#f4f4f4",
+  bgOneA70: "#f4f4f470",
+  bgOneA50: "#f4f4f450",
+  bgOneA30: "#f4f4f430",
   bgTwo: "#d5d5d5",
   link: "#000",
   text: "#575757",
@@ -49,6 +55,9 @@ const lightPallete: Theme = {
 
 const darkPallete: Theme = {
   bgOne: "#000",
+  bgOneA70: "#0007",
+  bgOneA50: "#0005",
+  bgOneA30: "#0003",
   bgTwo: "#2b2b2b",
   link: "#f4f4f4",
   text: "#c6c6c6",
@@ -76,10 +85,10 @@ export default function AppTheme({ children }: Props) {
 
   const getOppositTheme = useCallback(() => {
     if (currentTheme === "light") {
-      localStorage.setItem("@hbler:palleteMode", "light");
+      localStorage.setItem("@hbler:palleteMode", "dark");
       return "dark" as PalletMode;
     } else {
-      localStorage.setItem("@hbler:palleteMode", "dark");
+      localStorage.setItem("@hbler:palleteMode", "light");
       return "light" as PalletMode;
     }
   }, [currentTheme]);
