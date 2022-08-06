@@ -1,11 +1,13 @@
-import React, { Suspense, useContext } from "react";
-import logo from "./logo.svg";
+import { Suspense, useContext } from "react";
 import "./App.css";
+import logo from "./logo.svg";
 
 import { Trans, useTranslation } from "react-i18next";
 import { Teste } from "./components/teste";
 import { ThemeContext } from "./styles/theme";
-import MobileMenu from "./components/menu";
+
+import MobileMenu from "./components/menu/mobile";
+import Menu from "./components/menu";
 
 function App() {
   const { t, i18n } = useTranslation();
@@ -27,6 +29,7 @@ function App() {
     <Suspense fallback="loading">
       <div className="App">
         <MobileMenu />
+        <Menu />
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1>{t("Welcome to React")}</h1>
