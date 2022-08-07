@@ -9,8 +9,9 @@ import {
   MdViewCarousel,
 } from "react-icons/md";
 import { HashLink } from "react-router-hash-link";
-import { ThemeContext } from "../../styles/theme";
+import { v4 as uuidv4 } from "uuid";
 
+import { ThemeContext } from "../../styles/theme";
 import { Nav } from "./style";
 
 export default function Menu() {
@@ -40,7 +41,7 @@ export default function Menu() {
         <ul>
           <li>
             <MdAccountCircle />
-            <HashLink to={"/#teste"}>{t("menu.about")}</HashLink>
+            <HashLink to={"/#about"}>{t("menu.about")}</HashLink>
           </li>
           <li>
             <MdViewCarousel />
@@ -67,7 +68,7 @@ export default function Menu() {
             {Object.keys(lngs).map((lng, i) => (
               <>
                 <button
-                  key={lng}
+                  key={uuidv4()}
                   className={
                     i18n.resolvedLanguage === lng ? "active" : "standby"
                   }

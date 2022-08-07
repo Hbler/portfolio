@@ -15,16 +15,26 @@
     "talk": "let's talk"
   },
   "landing": {
-    "text": "Hello, I'm Hugo a <span>Possibilities Scientist</span> working in the intersection of development and design, experimenting and learning with the new and the traditional to <span>create original expereriences</span> and <span>systematize the chaos</span> of our time.",
+    "dev": {
+      "front": "Front-End Developer",
+      "back": "Back-End Developer",
+      "full": "Full-Stack Developer"
+    },
+    "text": "Hello, I'm Hugo a <span>Possibilities Scientist</span> working in the intersection of development and design. <br /><br />Experimenting and learning with the new and the traditional to <span>create original expereriences</span> and <span>systematize the chaos</span> of our time.",
     "scroll": "scroll to learn more",
-    "update": "updated in: JUL / 22"
+    "update": "updated in: Ago / 22"
   },
   "about": {
     "title": "About",
     "part1": " I've always had some sort of connection with technology, from an early age I liked tinkering and experimenting, I even won gold medals (two) on a national computing competition (OBI), but when it came the time to choose I ended up choosing the design path. And even in that area technology was always present, some new software or a script that would automate a task.",
     "part2": "So this year I “gave in” and started studying to become a Full Stack Web Developer at Kenzie Academy Brasil, where I've learned about Front End development and project versioning, and am learning about Back End development.",
     "part3": "And in parallel studying in other courses to learn programming languages that we won't see there, like Go (Golang), concepts like TDD (test driven development), and more about algorithms and data structures.",
-    "techs": "Techs & Softwares"
+    "techs": {
+      "title": "Techs & Softwares",
+      "most": "Most Experience",
+      "some": "Some Experience",
+      "softwares": "Other Softwares"
+    }
   },
   "projects": {
     "title": "Projects",

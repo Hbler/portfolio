@@ -1,74 +1,36 @@
-import { Suspense, useContext } from "react";
-import "./App.css";
-import logo from "./logo.svg";
+import { Suspense, useEffect, useState } from "react";
 
-import { Trans, useTranslation } from "react-i18next";
-import { Teste } from "./components/teste";
-import { ThemeContext } from "./styles/theme";
-
-import MobileMenu from "./components/menu/mobile";
 import Menu from "./components/menu";
+import MobileMenu from "./components/menu/mobile";
+import About from "./pages/about";
+import Landing from "./pages/landing";
 
 function App() {
-  const { t, i18n } = useTranslation();
-  interface Langs {
-    en: { nativeName: string };
-    pt: { nativeName: string };
-  }
+  const [windowSize, setWindowSize] = useState({
+    windowWidth: 0,
+    windowHeight: 0,
+  });
 
-  type L = keyof Langs;
+  useEffect(() => {
+    updateDimensions();
+    window.addEventListener("resize", updateDimensions);
+    return () => {
+      window.removeEventListener("resize", updateDimensions);
+    };
+  }, []);
 
-  const lngs: Langs = {
-    en: { nativeName: "English" },
-    pt: { nativeName: "Português" },
+  const updateDimensions = () => {
+    let windowWidth = typeof window !== "undefined" ? window.innerWidth : 0;
+    let windowHeight = typeof window !== "undefined" ? window.innerHeight : 0;
+
+    setWindowSize({ windowWidth, windowHeight });
   };
-
-  const { setCurrentTheme, getOppositTheme } = useContext(ThemeContext);
-
   return (
     <Suspense fallback="loading">
       <div className="App">
-        <MobileMenu />
-        <Menu />
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1>{t("Welcome to React")}</h1>
-          <div>
-            {Object.keys(lngs).map((lng) => (
-              <button
-                key={lng}
-                style={{
-                  fontWeight: i18n.resolvedLanguage === lng ? "bold" : "normal",
-                }}
-                type="submit"
-                onClick={() => i18n.changeLanguage(lng)}
-              >
-                {lngs[lng as L].nativeName}
-              </button>
-            ))}
-          </div>
-          <p>
-            <Trans i18nKey="description.part1">
-              Edit <code>src/App.tsx</code> and save to reload.
-            </Trans>
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {t("menu.talk")}
-          </a>
-        </header>
-        <Teste
-          id="teste"
-          onClick={() => {
-            setCurrentTheme(getOppositTheme());
-          }}
-        >
-          <p>Hello World</p>
-        </Teste>
+        {windowSize.windowWidth < 576 ? <MobileMenu /> : <Menu />}
+        <Landing />
+        <About />
       </div>
     </Suspense>
   );

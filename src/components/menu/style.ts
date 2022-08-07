@@ -48,9 +48,12 @@ export const MobileNav = styled.nav`
   top: 0;
   width: 100vw;
 
+  border-bottom: 1px solid;
+  border-color: ${({ theme: { bgOne } }) => bgOne};
+
   position: fixed;
-  backdrop-filter: blur(5px);
-  background-color: ${({ theme: { bgOneA70 } }) => bgOneA70};
+  backdrop-filter: blur(10px);
+  z-index: 3;
 
   #showNav {
     width: 100%;
@@ -75,7 +78,7 @@ export const MobileNav = styled.nav`
 
     ul {
       margin: auto;
-      width: 45%;
+      width: 38.2%;
 
       gap: 1rem;
       display: flex;
@@ -163,10 +166,12 @@ export const Nav = styled.nav`
     width: 100vw;
 
     display: block;
+    border-bottom: 1px solid;
+    border-color: ${({ theme: { bgOne } }) => bgOne};
 
     position: fixed;
-    backdrop-filter: blur(5px);
-    background-color: ${({ theme: { bgOneA70 } }) => bgOneA70};
+    backdrop-filter: blur(10px);
+    z-index: 3;
 
     .container {
       gap: 2rem;
@@ -176,7 +181,7 @@ export const Nav = styled.nav`
 
       ul {
         margin: auto;
-        width: 80%;
+        width: 80.9%;
 
         display: flex;
         justify-content: space-between;
@@ -255,11 +260,13 @@ export const Nav = styled.nav`
 
   ${mq[2]} {
     .container {
-      padding: 3rem 0.8rem 2rem;
+      padding: 3rem 2rem 1rem;
       flex-direction: row;
+      justify-content: space-between;
 
       ul {
-        width: 40%;
+        width: 38.2%;
+        margin: unset;
       }
       ul:nth-child(1) {
         li {
@@ -292,6 +299,12 @@ export const Nav = styled.nav`
           }
         }
       }
+    }
+  }
+
+  ${mq[3]} {
+    .container {
+      padding: 3rem 0.8rem 0.8rem;
     }
   }
 

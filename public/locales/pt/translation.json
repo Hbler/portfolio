@@ -15,16 +15,26 @@
     "talk": "me chama"
   },
   "landing": {
-    "text": "Olá, Eu sou o Hugo um <span>Cientista de Possibilidades</span> atuando na intercessão de desenvolvimento e design, eperimentando e aprendendo com o novo e o tradicional para <span>criar experiências originais</span> e <span>sistematizar o caos</span> em do nosso tempo.",
+    "dev": {
+      "front": "Desenvolvedor Front-End",
+      "back": "Desenvolvedor Back-End",
+      "full": "Desenvolvedor Full-Stack"
+    },
+    "text": "Olá, Eu sou o Hugo um <span>Cientista de Possibilidades</span> atuando na intercessão de desenvolvimento e design.<br /><br />Experimentando e aprendendo com o novo e o tradicional para <span>criar experiências originais</span> e <span>sistematizar o caos</span> do nosso tempo.",
     "scroll": "role para saber mais",
-    "update": "atualizado em: JUL / 22"
+    "update": "atualizado em: Ago / 22"
   },
   "about": {
     "title": "Sobre",
     "part1": " Sempre tive algum tipo de ligação com tecnologia, desde cedo gostei de mexer e experimentar, até ganhei medalhas de ouro (duas) em uma competição nacional de informática (OBI), mas na hora de escolher uma graduação acabei seguindo o caminho do Design. E mesmo nessa área a tecnologia sempre esteve presente, algum software novo ou um script que automatizasse uma tarefa.",
     "part2": "Então este ano eu “cedi” ao chamado da tecnologia e comecei a estudar para me tornar um Desenvolvedor Web Full Stack na Kenzie Academy Brasil, onde aprendi sobre desenvolvimento Front End e versionamento de projetos, e estou aprendendo sobre desenvolvimento Back End.",
     "part3": "Em paralelo fazendo cursos de liguagens que não teremos no curso como a Go (Golang), conceitos como TDD (desenvolvimento orientado por testes), e mais sobre algorítimos e estruturas de dados.",
-    "techs": "Tecnologias & Softwares"
+    "techs": {
+      "title": "Teconologias & Softwares",
+      "most": "Maior Experiênica",
+      "some": "Alguma Experiência",
+      "softwares": "Outros Softwares"
+    }
   },
   "projects": {
     "title": "Projetos",
