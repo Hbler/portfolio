@@ -56,7 +56,7 @@ export default function MobileMenu() {
             </li>
             <li onClick={displayNav}>
               <MdViewCarousel />
-              <HashLink to={"/#teste"}>{t("menu.projects")}</HashLink>
+              <HashLink to={"/#projects"}>{t("menu.projects")}</HashLink>
             </li>
             <li onClick={displayNav}>
               <MdOutlineLink />

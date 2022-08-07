@@ -40,9 +40,9 @@
     "title": "Projects",
     "menu": {
       "all": "All",
-      "conclusion": "Module Conclusion Project",
-      "study": "Study Project",
-      "personal": "Personal Project"
+      "team": "Team",
+      "study": "Study",
+      "personal": "Personal"
     },
     "list": {
       "color": {
@@ -52,7 +52,7 @@
       },
       "bwlgari": {
         "title": "Bwlgari",
-        "type": "Module Conclusion Project",
+        "type": "Study Project",
         "description": "The project that capped the first course module at Kenzie Academy Brasil, using HTML5, vanilla JavaScript and CSS3, I createad an one page e-commerce with layered filters, cart, and wish-list with products by the brand BVLGARI."
       },
       "genius": {
@@ -87,7 +87,7 @@
       },
       "food": {
         "title": "Kenzie Food",
-        "type": "Module Conclusion Project",
+        "type": "Team Project",
         "description": "This was a team project, in which I had the opportunity to be the Tech Leader following the agile methodology. On this one our team was taked to create a food e-commerce applying the content of the module: API, OOP, LocalStorage, Mobile First. Using vanilla JavaScript, HTML5 and CSS3."
       },
       "nu": {
@@ -122,13 +122,13 @@
       },
       "relativi": {
         "title": "Relativi",
-        "type": "Module Conclusion Project",
+        "type": "Team Project",
         "description": "Another team project, in this one I had the opportunity to act as Product Owner following the agile methodology. Our team decided to create an health & wellness application, that could benefit not only the user but also service providers, with a platform to register and search for physical activities, using React, Redux, Styled Components, Axios, and JSON-Server to simulate a database hosted in Heroku."
       }
     },
     "buttons": {
       "repo": "Repository",
-      "app": "Application",
+      "app": "App",
       "video": "Video"
     }
   },

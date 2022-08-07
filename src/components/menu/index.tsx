@@ -45,7 +45,7 @@ export default function Menu() {
           </li>
           <li>
             <MdViewCarousel />
-            <HashLink to={"/#teste"}>{t("menu.projects")}</HashLink>
+            <HashLink to={"/#projects"}>{t("menu.projects")}</HashLink>
           </li>
           <li>
             <MdOutlineLink />

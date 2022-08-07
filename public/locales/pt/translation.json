@@ -40,9 +40,9 @@
     "title": "Projetos",
     "menu": {
       "all": "Todos",
-      "conclusion": "Projeto de Conclusão de Módulo",
-      "study": "Projeto de Studo",
-      "personal": "Projeto Pessoal"
+      "team": "Equipe",
+      "study": "Estudo",
+      "personal": "Pessoal"
     },
     "list": {
       "color": {
@@ -52,7 +52,7 @@
       },
       "bwlgari": {
         "title": "Bwlgari",
-        "type": "Projeto de Conclusão de Módulo",
+        "type": "Projeto de Estudo",
         "description": "O projeto que encerrou o primeiro módulo do curso na Kenzie Academy Brasil, utilizando HTML5, JavaScript puro, e CSS3, Eu criei um e-ecomerce de página única com dois tipos de filtros, carrinho, e lista de desejos, com produtos da marca BVLGARI."
       },
       "genius": {
@@ -63,7 +63,7 @@
       "oregon": {
         "title": "Oregon Trail",
         "type": "Projeto de Estudo",
-        "description": "TEste projeto foi o primeiro no qual eu apliquei o paradigma de Programação Orientada ao Objeto com JavaSccript, e é mais um que fui além do enunciado, Eu decidi representar visualmente as modificações nas classes, e assim o fiz utilizando HTML5 e manipulação de DOM com JavaScript e CSS3."
+        "description": "Este projeto foi o primeiro no qual eu apliquei o paradigma de Programação Orientada ao Objeto com JavaSccript, e é mais um que fui além do enunciado, Eu decidi representar visualmente as modificações nas classes, e assim o fiz utilizando HTML5 e manipulação de DOM com JavaScript e CSS3."
       },
       "products": {
         "title": "Lista de Produtos",
@@ -87,7 +87,7 @@
       },
       "food": {
         "title": "Kenzie Food",
-        "type": "Projeto de Conclusão de Módulo",
+        "type": "Projeto em Equipe",
         "description": "Esse foi um projeto em equipe, no qual eu tive a oportunidade de atuar como Tech Leader seguindo metodologia ágil. Nesse nossa equipe tinha o objetivo de criar um e-commerce aplicando o todo conteúdo do móedulo: API, OOP, LocalStorage, Mobile First. Utilizando JavaScript puro, HTML5 e CSS3."
       },
       "nu": {
@@ -113,7 +113,7 @@
       "redux": {
         "title": "Kenzieshop - Redux",
         "type": "Projeto de Estudo",
-        "description": "Nesse projeto eu tinha carta-branca para escolher um tema para o e-comerce, então decidi revisitar o projeto que fiz na conclusão do primeiro módulo do curso, e refatorá-lo com React, Redux e Thunk como middleware, e Styled Components."
+        "description": "Nesse projeto eu tinha carta-branca para escolher um tema para o e-commerce, então decidi revisitar o projeto que fiz na conclusão do primeiro módulo do curso, e refatorá-lo com React, Redux e Thunk como middleware, e Styled Components."
       },
       "context": {
         "title": "Kenzieshop - Context",

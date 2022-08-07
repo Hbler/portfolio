@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 import { mq } from "../../styles/global";
 
 import BGlight from "../../assets/img/bg/top_l.svg";
@@ -74,7 +75,6 @@ export const Section = styled.section`
 
       border-radius: 3px;
       backdrop-filter: blur(10px);
-      /* background-color: ${({ theme: { bgOneA30 } }) => bgOneA30}; */
     }
 
     .tech_list {
@@ -104,7 +104,6 @@ export const Section = styled.section`
       align-items: center;
       justify-content: space-between;
 
-      background-size: auto 100%;
       background-repeat: no-repeat;
 
       & > div {
