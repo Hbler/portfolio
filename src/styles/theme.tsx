@@ -31,6 +31,9 @@ export type Theme = {
   bgTwo: string;
   link: string;
   text: string;
+  textA70: string;
+  textA50: string;
+  textA30: string;
   highlight: string;
   success: string;
   info: string;
@@ -46,6 +49,9 @@ const lightPallete: Theme = {
   bgTwo: "#d5d5d5",
   link: "#000",
   text: "#575757",
+  textA70: "#57575770",
+  textA50: "#57575750",
+  textA30: "#57575730",
   highlight: "#5a36eb",
   success: "#c8d379",
   info: "#91cdf2",
@@ -61,6 +67,9 @@ const darkPallete: Theme = {
   bgTwo: "#2b2b2b",
   link: "#f4f4f4",
   text: "#c6c6c6",
+  textA70: "#c6c6c670",
+  textA50: "#c6c6c650",
+  textA30: "#c6c6c630",
   highlight: "#5a36eb",
   success: "#c8d379",
   info: "#91cdf2",

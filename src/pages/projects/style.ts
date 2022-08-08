@@ -43,6 +43,7 @@ export const Section = styled.main`
     }
 
     .list {
+      padding-bottom: 0.8rem;
       gap: 0.5rem;
       display: flex;
       overflow-x: scroll;

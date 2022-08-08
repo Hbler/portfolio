@@ -50,6 +50,38 @@ export const GlobalStyle = createGlobalStyle<{ theme: Theme }>`
     box-sizing: border-box;
     scroll-behavior: smooth;
     font-family: "Neue Haas Grotestk Display", sans-serif;
+
+    ::-webkit-scrollbar { /*  the entire scrollbar. */
+    width: 5px;
+    height: 5px;
+    background: transparent;
+    border-radius: 10px;
+
+    }
+
+    ::-webkit-scrollbar-track { /* the track (progress bar) of the scrollbar, where there is a gray bar on top of a white bar */
+    border-radius: 10px;
+    background: transparent;
+    }
+
+    ::-webkit-scrollbar-track-piece{ /* the part of the track (progress bar) not covered by the handle. */
+    background-color: transparent;
+    }
+    
+    ::-webkit-scrollbar-thumb { /* the draggable scrolling handle. */
+    background: ${({ theme: { textA30 } }) => textA30};
+    border-radius: 10px;
+    
+    border: none;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+            background: ${({ theme: { textA70 } }) => textA70};
+    }
+
+    ::-webkit-scrollbar-corner{ /*the bottom corner of the scrollbar, where both horizontal and vertical scrollbars meet. This is often the bottom-right corner of the browser window.*/
+        display: none;
+    }
 }
 
 body{
