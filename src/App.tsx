@@ -4,6 +4,7 @@ import Menu from "./components/menu";
 import MobileMenu from "./components/menu/mobile";
 import About from "./pages/about";
 import Landing from "./pages/landing";
+import Links from "./pages/links";
 import Projects from "./pages/projects";
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
         <Landing />
         <About />
         <Projects />
+        <Links windowSize={windowSize} />
       </div>
     </Suspense>
   );

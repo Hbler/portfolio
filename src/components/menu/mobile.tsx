@@ -60,7 +60,7 @@ export default function MobileMenu() {
             </li>
             <li onClick={displayNav}>
               <MdOutlineLink />
-              <HashLink to={"/#teste"}>{t("menu.links")}</HashLink>
+              <HashLink to={"/#links"}>{t("menu.links")}</HashLink>
             </li>
           </ul>
           <ul>
@@ -97,7 +97,7 @@ export default function MobileMenu() {
               <MdTranslate />
             </li>
             <li onClick={displayNav}>
-              <HashLink to={"/#teste"}>{t("menu.talk")}</HashLink>
+              <HashLink to={"/#talk"}>{t("menu.talk")}</HashLink>
               <MdForum />
             </li>
           </ul>

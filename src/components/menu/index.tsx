@@ -49,7 +49,7 @@ export default function Menu() {
           </li>
           <li>
             <MdOutlineLink />
-            <HashLink to={"/#teste"}>{t("menu.links")}</HashLink>
+            <HashLink to={"/#links"}>{t("menu.links")}</HashLink>
           </li>
         </ul>
         <ul>
@@ -83,7 +83,7 @@ export default function Menu() {
           </li>
           <li>
             <MdForum />
-            <HashLink to={"/#teste"}>{t("menu.talk")}</HashLink>
+            <HashLink to={"/#talk"}>{t("menu.talk")}</HashLink>
           </li>
         </ul>
       </div>

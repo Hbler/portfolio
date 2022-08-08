@@ -6,7 +6,7 @@ import BGlight from "../../assets/img/bg/mid_l.svg";
 import BGdark from "../../assets/img/bg/mid_d.svg";
 
 /* prettier-ignore */
-export const Section = styled.section`
+export const Section = styled.main`
   background-image: url(${({ theme: { bgOne } }) => bgOne === "#000" ? BGdark : BGlight});
   background-size: cover;
   background-position: center;

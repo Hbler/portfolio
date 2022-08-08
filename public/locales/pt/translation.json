@@ -135,15 +135,31 @@
   "links": {
     "title1": "Links & Download",
     "title2": "Vamos conversar",
-    "linkedin": "No LinkedIn é onde posto a maioria dos projetos e experimentos, então fique a vontade para acompanhar essa jornada, descbrir mais proejtos, o apenas bater um papo.",
-    "github": "É onde você vai encontrar todos os repositórios dos projetos listados aqui, e também te projetos em desenvolvimento e em hiato.",
+    "linkedin": {
+      "title": "LinkedIn",
+      "text": "Onde posto a maioria dos projetos e experimentos, então fique a vontade para acompanhar essa jornada, descbrir mais proejtos, o apenas bater um papo."
+    },
+    "github": {
+      "title": "GitHub",
+      "text": "Encontre os repositórios dos projetos listados aqui, projetos em progresso e em hiato."
+    },
     "resume": {
       "title": "Currículo",
-      "text": "Clique para fazer o download da versão mais recente do meu currículo."
+      "text": "Baixe a versão mais recente do meu currículo."
     },
-    "whats": "Clique para enviar uma mensagem, fazer uma chamada de video ou voz por WhatsApp.",
-    "telegram": "Clique para enviar uma mensagem, fazer uma chamada de video ou voz, ou pesquise <span>hblerdev</span> no Telegram.",
-    "email": "Tem um feedback, ideia ou proposta? Me manda um email e manteremos contato.",
+    "whats": {
+      "title": "WhatsApp",
+      "text": "Clique para enviar uma mensagem, fazer uma chamada de video ou voz por WhatsApp."
+    },
+    "telegram": {
+      "title": "Telegram",
+      "text": "Clique para enviar uma mensagem, me chamar por video ou voz, ou pesquise <span>hblerdev</span> no Telegram."
+    },
+    "email": {
+      "title": "Email",
+      "text": "Tem um feedback, ideia, sugestão ou proposta? Me manda um email."
+    },
+
     "thanks": "Agradeço sua visita!"
   }
 }

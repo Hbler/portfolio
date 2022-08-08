@@ -75,7 +75,7 @@ export const Card = styled.article`
   ${mq[3]} {
     .info {
       p {
-        height: 160px;
+        height: 170px;
       }
     }
   }

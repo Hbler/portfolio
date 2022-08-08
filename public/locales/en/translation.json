@@ -135,15 +135,30 @@
   "links": {
     "title1": "Links & Download",
     "title2": "Let's talk",
-    "linkedin": "LinkedIn is where I share most of my projects and experiments, so feel free to follow my journey, discover more about projects, or just chat.",
-    "github": "There you’ll find all repositories of the projects listed here and also of others in progress or in huatus.",
+    "linkedin": {
+      "title": "LinkedIn",
+      "text": "Where I share most of my projects and experiments, so feel free to follow my journey, discover more about projects, or just chat."
+    },
+    "github": {
+      "title": "GitHub",
+      "text": "Find repositories of projects listed here and projects in progress or in huatus."
+    },
     "resume": {
       "title": "Resumé",
-      "text": "Click download the latest version of my resumé."
+      "text": "Download the latest version of my resumé."
     },
-    "whats": "Click to start a chat, voice or video call via WhatsApp.",
-    "telegram": "Click to start a chat, voice or video call, or search for <span>hblerdev</span> in Telegram.",
-    "email": "Have a feedback, idea, or a proposal? Send me an email, and we’ll keep in touch.",
+    "whats": {
+      "title": "WhatsApp",
+      "text": "Click to start a chat, voice or video call via WhatsApp."
+    },
+    "telegram": {
+      "title": "Telegram",
+      "text": "Click to start a chat, voice or video call, or search for <span>hblerdev</span> in Telegram."
+    },
+    "email": {
+      "title": "Email",
+      "text": "Have a feedback, idea, or a proposal? Email me, and we’ll keep in touch."
+    },
     "thanks": "Thank You!"
   }
 }
