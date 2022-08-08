@@ -50,9 +50,7 @@ export default function Links({ windowSize }: Props) {
               </h3>
               <p>{t("links.resume.text")}</p>
               <a
-                href={
-                  process.env.PUBLIC_URL + "/assets/resume/Resumé-Hugo_Bler.pdf"
-                }
+                href="/assets/resume/resume_hugo-bler_en.pdf"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -60,9 +58,7 @@ export default function Links({ windowSize }: Props) {
                 English Version
               </a>
               <a
-                href={
-                  process.env.PUBLIC_URL + "/assets/resume/CV-Hugo_Bler.pdf"
-                }
+                href="/assets/resume/resume_hugo-bler_pt.pdf"
                 target="_blank"
                 rel="noreferrer"
               >
