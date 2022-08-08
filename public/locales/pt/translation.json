@@ -98,7 +98,7 @@
       "burguer": {
         "title": "Kenzie Burguer",
         "type": "Projeto de Estudo",
-        "description": "With this project I practiced the use of API with React, learning more about react hooks, and the Axios lib. In this one I also experimented more with the Styled Components lib to create a light and a dark theme changed by the user. In it we created a fast-food e-commerce with products from an API."
+        "description": "Nesse projeto eu pratiquei o uso de APIs com React, aprendendo mais sobre os rooks do react e a biblioteca Axios. Eu também experimentei criar temas claro e escuro com a Styled Components. Nele criamos um e-commerce de fast-food com produtos de uma API."
       },
       "form": {
         "title": "Form Practice",
