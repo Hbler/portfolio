@@ -70,7 +70,7 @@ const darkPallete: Theme = {
   textA70: "#c6c6c670",
   textA50: "#c6c6c650",
   textA30: "#c6c6c630",
-  highlight: "#5a36eb",
+  highlight: "#a5c914",
   success: "#c8d379",
   info: "#91cdf2",
   error: "#d26d80",
