@@ -20,15 +20,15 @@
       "back": "Desenvolvedor Back-End",
       "full": "Desenvolvedor Full-Stack"
     },
-    "text": "Olá, Eu sou o Hugo um <span>Cientista de Possibilidades</span> atuando na intercessão de desenvolvimento e design.<br /><br />Experimentando e aprendendo com o novo e o tradicional para <span>criar experiências originais</span> e <span>sistematizar o caos</span> do nosso tempo.",
+    "text": "Olá, Eu sou o Hugo um <span>Cientista de Possibilidades</span> atuando na intercessão de desenvolvimento e design.<br /><br />Experimentando e aprendendo com o novo e o tradicional para <span>criar experiências originais</span> e <span>resolver os problemas</span> do nosso tempo.",
     "scroll": "role para saber mais",
-    "update": "atualizado em: Ago / 22"
+    "update": "atualizado em: Set / 22"
   },
   "about": {
     "title": "Sobre",
-    "part1": " Sempre tive algum tipo de ligação com tecnologia, desde cedo gostei de mexer e experimentar, até ganhei medalhas de ouro (duas) em uma competição nacional de informática (OBI), mas na hora de escolher uma graduação acabei seguindo o caminho do Design. E mesmo nessa área a tecnologia sempre esteve presente, algum software novo ou um script que automatizasse uma tarefa.",
-    "part2": "Então este ano eu “cedi” ao chamado da tecnologia e comecei a estudar para me tornar um Desenvolvedor Web Full Stack na Kenzie Academy Brasil, onde aprendi sobre desenvolvimento Front End e versionamento de projetos, e estou aprendendo sobre desenvolvimento Back End.",
-    "part3": "Em paralelo fazendo cursos de liguagens que não teremos no curso como a Go (Golang), conceitos como TDD (desenvolvimento orientado por testes), e mais sobre algorítimos e estruturas de dados.",
+    "part1": "Neste ano decidi aprofundar minha conexão com a tecnologia e recentemente concluí um curso de certificação Front-End de 1.000 horas, onde vivenciei muitos aspectos de um ambiente profissional real, desenvolvendo com prazos pré-estabelecidos, metodologia àgil, trabalhando e gerenciando equipes, e também como coach de pares.",
+    "part2": "Como é característico da área de tecnologia, ainda tenho coisas para aprender, então estou passando por mais 1000 horas, nesse mesmo ambiente, em que estou aprendendo um conteúdo relacionado ao Back-End então estou muito animado.   Como ‘cientista’, sou motivado por experimentar e aprender com o novo e o tradicional para descobrir as melhores maneiras de atingir objetivos e resolver problemas.",
+    "part3": "E como o estudar se tornou um hábito, em paralelo estou estudando em outros cursos e livros para aprender outras linguagens de programação e aprofundar alguns conceitos, como TDD (desenvolvimento orientado a testes), algoritmos comuns, estruturas de dados e design patterns.",
     "techs": {
       "title": "Teconologias & Softwares",
       "most": "Maior Experiênica",

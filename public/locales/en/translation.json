@@ -20,15 +20,15 @@
       "back": "Back-End Developer",
       "full": "Full-Stack Developer"
     },
-    "text": "Hello, I'm Hugo a <span>Possibilities Scientist</span> working in the intersection of development and design. <br /><br />Experimenting and learning with the new and the traditional to <span>create original expereriences</span> and <span>systematize the chaos</span> of our time.",
+    "text": "Hello, I'm Hugo a <span>Possibilities Scientist</span> working in the intersection of development and design. <br /><br />Experimenting and learning with the new and the traditional to <span>create original expereriences</span> and <span>solve problems</span> of our time.",
     "scroll": "scroll to learn more",
-    "update": "updated in: Ago / 22"
+    "update": "updated in: Sep / 22"
   },
   "about": {
     "title": "About",
-    "part1": " I've always had some sort of connection with technology, from an early age I liked tinkering and experimenting, I even won gold medals (two) on a national computing competition (OBI), but when it came the time to choose I ended up choosing the design path. And even in that area technology was always present, some new software or a script that would automate a task.",
-    "part2": "So this year I “gave in” and started studying to become a Full Stack Web Developer at Kenzie Academy Brasil, where I've learned about Front End development and project versioning, and am learning about Back End development.",
-    "part3": "And in parallel studying in other courses to learn programming languages that we won't see there, like Go (Golang), concepts like TDD (test driven development), and more about algorithms and data structures.",
+    "part1": "This year I decided to deepen my connection with technology and recently concluded a Front-End certification course of 1.000 hours, in which I experienced many aspects of a real professional environment, developing with deadlines, agile methodology, working with and managing teams, and also as a coach for peers.",
+    "part2": "As is characteristic of the tech field, I still have things to learn, so I’m going through a 1000 more hours in which I’m learning o learn about Back-End technologies, so I’m very excited about that. As a ‘scientist’ I’m motivated by experimenting and learning with the new and the traditional to figure out the best ways to achieve goals and solve problems.",
+    "part3": "And since learning became a habit in parallel I’m studying in other courses and books to learn other programming languages and deepen some concepts like TDD (test driven development), common algorithms, data structures, and design patterns.",
     "techs": {
       "title": "Techs & Softwares",
       "most": "Most Experience",
