@@ -32,18 +32,24 @@ export default function ProjectCard({ project, alias }: Project) {
         <p>{t(`projects.list.${alias}.description`)}</p>
       </div>
       <div className="links">
-        <a href={project.repo} target="_blank" rel="noreferrer">
-          <GoMarkGithub />
-          {t(`projects.buttons.repo`)}
-        </a>
-        <a href={project.app} target="_blank" rel="noreferrer">
-          <MdExitToApp />
-          {t(`projects.buttons.app`)}
-        </a>
-        <a href={project.video} target="_blank" rel="noreferrer">
-          <MdOndemandVideo />
-          {t(`projects.buttons.video`)}
-        </a>
+        {project.repo && (
+          <a href={project.repo} target="_blank" rel="noreferrer">
+            <GoMarkGithub />
+            {t(`projects.buttons.repo`)}
+          </a>
+        )}
+        {project.app && (
+          <a href={project.app} target="_blank" rel="noreferrer">
+            <MdExitToApp />
+            {t(`projects.buttons.app`)}
+          </a>
+        )}
+        {project.video && (
+          <a href={project.video} target="_blank" rel="noreferrer">
+            <MdOndemandVideo />
+            {t(`projects.buttons.video`)}
+          </a>
+        )}
       </div>
     </Card>
   );

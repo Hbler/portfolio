@@ -22,13 +22,13 @@
     },
     "text": "Olá, Eu sou o Hugo um <span>Cientista de Possibilidades</span> atuando na intercessão de desenvolvimento e design.<br /><br />Experimentando e aprendendo com o novo e o tradicional para <span>criar experiências originais</span> e <span>resolver os problemas</span> do nosso tempo.",
     "scroll": "role para saber mais",
-    "update": "atualizado em: Set / 22"
+    "update": "atualizado em: Nov / 22"
   },
   "about": {
     "title": "Sobre",
-    "part1": "Neste ano decidi aprofundar minha conexão com a tecnologia e recentemente concluí um curso de certificação Front-End de 1.000 horas, onde vivenciei muitos aspectos de um ambiente profissional real, desenvolvendo com prazos pré-estabelecidos, metodologia àgil, trabalhando e gerenciando equipes, e também como coach de pares.",
-    "part2": "Como é característico da área de tecnologia, ainda tenho coisas para aprender, então estou passando por mais 1000 horas, nesse mesmo ambiente, em que estou aprendendo um conteúdo relacionado ao Back-End então estou muito animado.   Como ‘cientista’, sou motivado por experimentar e aprender com o novo e o tradicional para descobrir as melhores maneiras de atingir objetivos e resolver problemas.",
-    "part3": "E como o estudar se tornou um hábito, em paralelo estou estudando em outros cursos e livros para aprender outras linguagens de programação e aprofundar alguns conceitos, como TDD (desenvolvimento orientado a testes), algoritmos comuns, estruturas de dados e design patterns.",
+    "part1": "Neste este ano decidi aprofundar minha conexão com a tecnologia e recentemente concluí um curso de certificação Full-Stack de 2.000 horas, onde vivenciei muitos aspectos de um ambiente profissional real, desenvolvendo com prazos pré-estabelecidos, metodologia àgil, trabalhando e gerenciando equipes, e também como coach de pares.",
+    "part2": "Como é característico da área de tecnologia, ainda tenho coisas para aprender, mas como novas tecnologias e conceitos eram apresentados bimestralmente no curso, eu acabei desenvolvendo minha capacidade de aprender rapidamente. Como ‘cientista’, sou motivado por experimentar e aprender com o novo e o tradicional para descobrir as melhores maneiras de atingir objetivos e resolver problemas.",
+    "part3": "E como o estudar se tornou um hábito, eu sigo estudando em outros cursos e livros para aprender outras linguagens de programação e aprofundar alguns conceitos, como TDD (desenvolvimento orientado a testes), algoritmos comuns, estruturas de dados e design patterns.",
     "techs": {
       "title": "Teconologias & Softwares",
       "most": "Maior Experiênica",
@@ -118,12 +118,32 @@
       "context": {
         "title": "Kenzieshop - Context",
         "type": "Projeto de Estudo",
-        "description": "Esse projeto é uma segudna iteração the um outro projeto em que utilizei Redux com Thunk para criar um e-commerce, mas eu acabei não só refatorando o gerênciamento de estado para a Context API do React mas ambém o tema da loja."
+        "description": "Esse projeto é uma segudna iteração the um outro projeto em que utilizei Redux com Thunk para criar um e-commerce, mas eu acabei não só refatorando o gerênciamento de estado para a Context API do React mas também o tema da loja."
       },
       "relativi": {
         "title": "Relativi",
-        "type": "Module Conclusion Project",
-        "description": "Um outro projeto em equipe, e nesse tive a oportunidade de atuar como Product Owner seguindo a metodologia ágil. Nossa equipe decidiu criar uma aplicação coltada para saúde e bem-estar, que beneficia não apenas usuários mas também profissionais do setor, utilizando React, Redux, Styled Components, Axios, e JSON-Server para simular o banco de dados hospedado com Heroku."
+        "type": "Projeto em Equipe",
+        "description": "Um outro projeto em equipe, e nesse tive a oportunidade de atuar como Product Owner seguindo a metodologia ágil. Nossa equipe decidiu criar uma aplicação voltada para saúde e bem-estar, que beneficia não apenas usuários mas também profissionais do setor, utilizando React, Redux, Styled Components, Axios, e JSON-Server para simular o banco de dados hospedado com Heroku."
+      },
+      "relativi-back": {
+        "title": "Relativi Backend",
+        "type": "Projeto em Equipe",
+        "description": "Mais um projeto em equipe, e nesse tive a oportunidade de atuar como Tech Leader seguindo a metodologia ágil. Nossa equipe decidiu criar uma REST API para uma aplicação de saúde e bem-estar, utilizando Node, Express, TypeORM, PostgreSQL, e Docker."
+      },
+      "gdc-api": {
+        "title": "GDC API",
+        "type": "Projeto em Equipe",
+        "description": "Um projeto em equipe, e nesse tive a oportunidade de atuar como Product Owner seguindo a metodologia ágil. Nossa equipe decidiu criar uma REST API para o gerenciamento de candidaturas, utilizando Python, Django Rest Framework, e PostgreSQL."
+      },
+      "pokedex-vue": {
+        "title": "Vue.js Pokédex",
+        "type": "Projeto de Estudo",
+        "description": "Um projeto que utiliza a PokeAPI para criar uma ferramenta que busca Pokémons e suas evoluções tranzendo informações e atributos de cada pokémon encontrado. Utilizei Vue.js pela primeira vez com TypeScript e Scss."
+      },
+      "ng-cash": {
+        "title": "NG Cash",
+        "type": "Projeto de Estudo",
+        "description": "A ideia era criar uma aplicação em usuários pudessem se cadastrar com um username e senha, e com uma autenticação realizar “cash-outs“: transferências para outros usuários a partir de seus usernames. Bem como visualizar e filtrar as transações das quais participou. Nesse projeto eu utilizei Jest, Supertest e Sqlite3 para os testes unitários e de integração, PostgreSQL para o banco de dados, Node, Express, TypeScript e TypeORM para o backend, React, Context API, Styled-Components e TypeScript para o frontend e o Docker para orquestrar tudo isso."
       }
     },
     "buttons": {

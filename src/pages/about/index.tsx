@@ -15,15 +15,23 @@ export default function About() {
     "devicon-react-original",
     "devicon-typescript-plain",
     "devicon-redux-original",
+    "devicon-nodejs-plain",
+    "devicon-express-original",
+    "devicon-postgresql-plain",
+    "devicon-python-plain",
+    "devicon-django-plain",
+    "devicon-git-plain",
+    "devicon-github-original",
   ];
 
   const some = [
-    "devicon-nodejs-plain",
-    "devicon-express-original",
+    "devicon-vuejs-plain",
+    "devicon-sass-original",
     "devicon-jest-plain",
-    "devicon-postgresql-plain",
-    "devicon-python-plain",
+    "devicon-npm-original-wordmark",
+    "devicon-docker-plain",
     "devicon-go-original-wordmark",
+    "devicon-markdown-original",
   ];
 
   const softwares = [

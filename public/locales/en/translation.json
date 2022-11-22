@@ -22,13 +22,13 @@
     },
     "text": "Hello, I'm Hugo a <span>Possibilities Scientist</span> working in the intersection of development and design. <br /><br />Experimenting and learning with the new and the traditional to <span>create original expereriences</span> and <span>solve problems</span> of our time.",
     "scroll": "scroll to learn more",
-    "update": "updated in: Sep / 22"
+    "update": "updated in: Nov / 22"
   },
   "about": {
     "title": "About",
-    "part1": "This year I decided to deepen my connection with technology and recently concluded a Front-End certification course of 1.000 hours, in which I experienced many aspects of a real professional environment, developing with deadlines, agile methodology, working with and managing teams, and also as a coach for peers.",
-    "part2": "As is characteristic of the tech field, I still have things to learn, so I’m going through a 1000 more hours in which I’m learning o learn about Back-End technologies, so I’m very excited about that. As a ‘scientist’ I’m motivated by experimenting and learning with the new and the traditional to figure out the best ways to achieve goals and solve problems.",
-    "part3": "And since learning became a habit in parallel I’m studying in other courses and books to learn other programming languages and deepen some concepts like TDD (test driven development), common algorithms, data structures, and design patterns.",
+    "part1": "This year I decided to deepen my connection with technology and recently concluded a Full-Stack certification course of 2.000 hours, in which I experienced many aspects of a real professional environment, developing with deadlines, agile methodology, working with and managing teams, and also as a coach for peers.",
+    "part2": "As is characteristic of the tech field, I still have things to learn about, but since we were introduced to new techs and concepts bimonthly in the course, I developed my capacity to learn quickly. As a ‘scientist’ I’m motivated by experimenting and learning with the new and the traditional to figure out the best ways to achieve goals and solve problems.",
+    "part3": "And since learning became a habit I’m still studying in other courses and books to learn other programming languages and deepen some concepts like TDD (test driven development), common algorithms, data structures, and design patterns.",
     "techs": {
       "title": "Techs & Softwares",
       "most": "Most Experience",
@@ -124,6 +124,26 @@
         "title": "Relativi",
         "type": "Team Project",
         "description": "Another team project, in this one I had the opportunity to act as Product Owner following the agile methodology. Our team decided to create an health & wellness application, that could benefit not only the user but also service providers, with a platform to register and search for physical activities, using React, Redux, Styled Components, Axios, and JSON-Server to simulate a database hosted in Heroku."
+      },
+      "relativi-back": {
+        "title": "Relativi Backend",
+        "type": "Team Project",
+        "description": "A team project, in this one I had the opportunity to act as Tech Leader following the agile methodology. Our team decided to create a REST API for a health & wellness application, using Node, Express, TypeORM, PostgreSQL, and Docker."
+      },
+      "gdc-api": {
+        "title": "GDC API",
+        "type": "Team Project",
+        "description": "One more team project, in this one I had the opportunity to act as Product Owner following the agile methodology. Our team decided to create a REST API for a job-applications management tool, using Python, Django Rest Framework, and PostgreSQL."
+      },
+      "pokedex-vue": {
+        "title": "Vue.js Pokédex",
+        "type": "Study Project",
+        "description": "A project that uses the PokeAPI to create a tool to search Pokémons and their evolutions rendering info and attributes of each pokémon found. I used Vue.js for the first time with TypeScript and Scss"
+      },
+      "ng-cash": {
+        "title": "NG Cash",
+        "type": "Study Project",
+        "description": "The idea was to develop an app in which users could register with and username and password, and with an authentication could make “Cash-outs”: transactions that would send a value to other user by their username. As well as visualize and filter the transactions that they participated in.On this project I used Jest, Supertest and Sqlite3 for the unit and integration tests, PostgreSQL for the database, Node, Express, TypeScript and typeORM for the backend, React, Context API, Styled-Components and TypeScript for the frontend and Docker to orchestrate it all."
       }
     },
     "buttons": {
