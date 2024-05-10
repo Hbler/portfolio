@@ -22,13 +22,13 @@
     },
     "text": "Hello, I'm Hugo a <span>Possibilities Scientist</span> working in the intersection of development and design. <br /><br />Experimenting and learning with the new and the traditional to <span>create original expereriences</span> and <span>solve problems</span> of our time.",
     "scroll": "scroll to learn more",
-    "update": "updated in: Nov / 22"
+    "update": "updated in: May / 24"
   },
   "about": {
     "title": "About",
-    "part1": "This year I decided to deepen my connection with technology and recently concluded a Full-Stack certification course of 2.000 hours, in which I experienced many aspects of a real professional environment, developing with deadlines, agile methodology, working with and managing teams, and also as a coach for peers.",
-    "part2": "As is characteristic of the tech field, I still have things to learn about, but since we were introduced to new techs and concepts bimonthly in the course, I developed my capacity to learn quickly. As a ‘scientist’ I’m motivated by experimenting and learning with the new and the traditional to figure out the best ways to achieve goals and solve problems.",
-    "part3": "And since learning became a habit I’m still studying in other courses and books to learn other programming languages and deepen some concepts like TDD (test driven development), common algorithms, data structures, and design patterns.",
+    "part1": "Since joining Ouribank in December 2022, I have played a pivotal role in a squad working on the development of a growing product, while also contributing occasionally to other internal projects and fostering effective collaboration within multidisciplinary teams.",
+    "part2": "I am actively expanding my expertise in agile methodologies and gaining valuable insights into project management roles such as Tech Leader and Product Owner.",
+    "part3": "In addition to my technical skills, I am recognized for my exceptional soft skills, including clear communication, collaborative teamwork, adaptability to new environments, and maintaining a healthy work-life balance. I am deeply passionate about continuous learning and remain updated with the latest industry trends and best practices.",
     "techs": {
       "title": "Techs & Softwares",
       "most": "Most Experience",
@@ -144,6 +144,11 @@
         "title": "NG Cash",
         "type": "Study Project",
         "description": "The idea was to develop an app in which users could register with and username and password, and with an authentication could make “Cash-outs”: transactions that would send a value to other user by their username. As well as visualize and filter the transactions that they participated in.On this project I used Jest, Supertest and Sqlite3 for the unit and integration tests, PostgreSQL for the database, Node, Express, TypeScript and typeORM for the backend, React, Context API, Styled-Components and TypeScript for the frontend and Docker to orchestrate it all."
+      },
+      "single-spa-ecommerce": {
+        "title": "Single SPA - Ecommerce",
+        "type": "Study Project",
+        "description": "The motivation behind this project came from a situation at work: our team will soon start a transition to a micro-frontend architecture for our products. Wanting to be ahead of the curve and deepen my knowledge, I started this project as a proof of concept spike (POC ).It was an opportunity not only to better understand the concept, but also to explore a state management tool different from the ones I use."
       }
     },
     "buttons": {
@@ -161,7 +166,7 @@
     },
     "github": {
       "title": "GitHub",
-      "text": "Find repositories of projects listed here and projects in progress or in huatus."
+      "text": "Find repositories of projects listed here and projects in progress or in hiatus."
     },
     "resume": {
       "title": "Resumé",

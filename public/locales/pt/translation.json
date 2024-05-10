@@ -26,9 +26,9 @@
   },
   "about": {
     "title": "Sobre",
-    "part1": "Neste este ano decidi aprofundar minha conexão com a tecnologia e recentemente concluí um curso de certificação Full-Stack de 2.000 horas, onde vivenciei muitos aspectos de um ambiente profissional real, desenvolvendo com prazos pré-estabelecidos, metodologia àgil, trabalhando e gerenciando equipes, e também como coach de pares.",
-    "part2": "Como é característico da área de tecnologia, ainda tenho coisas para aprender, mas como novas tecnologias e conceitos eram apresentados bimestralmente no curso, eu acabei desenvolvendo minha capacidade de aprender rapidamente. Como ‘cientista’, sou motivado por experimentar e aprender com o novo e o tradicional para descobrir as melhores maneiras de atingir objetivos e resolver problemas.",
-    "part3": "E como o estudar se tornou um hábito, eu sigo estudando em outros cursos e livros para aprender outras linguagens de programação e aprofundar alguns conceitos, como TDD (desenvolvimento orientado a testes), algoritmos comuns, estruturas de dados e design patterns.",
+    "part1": "Desde que ingressei no Ouribank em dezembro de 2022, tenho desempenhado um papel fundamental em uma equipe que trabalha no desenvolvimento de um produto em crescimento, ao mesmo tempo que contribuo ocasionalmente para outros projetos internos e promovo a colaboração eficaz em equipes multidisciplinares.",
+    "part2": "Estou aprimorando ativamente minha experiência em metodologias ágeis e obtendo insights valiosos sobre funções de gerenciamento de projetos, como Líder Técnico e Proprietário de Produto.",
+    "part3": "Além de minhas habilidades técnicas, sou reconhecido por minhas habilidades interpessoais excepcionais, incluindo comunicação clara, trabalho colaborativo em equipe, adaptabilidade a novos ambientes e manutenção de um equilíbrio saudável entre vida pessoal e profissional. Sou profundamente apaixonado pelo aprendizado contínuo e me mantenho atualizado com as últimas tendências e melhores práticas do setor.",
     "techs": {
       "title": "Teconologias & Softwares",
       "most": "Maior Experiênica",
@@ -144,6 +144,11 @@
         "title": "NG Cash",
         "type": "Projeto de Estudo",
         "description": "A ideia era criar uma aplicação em usuários pudessem se cadastrar com um username e senha, e com uma autenticação realizar “cash-outs“: transferências para outros usuários a partir de seus usernames. Bem como visualizar e filtrar as transações das quais participou. Nesse projeto eu utilizei Jest, Supertest e Sqlite3 para os testes unitários e de integração, PostgreSQL para o banco de dados, Node, Express, TypeScript e TypeORM para o backend, React, Context API, Styled-Components e TypeScript para o frontend e o Docker para orquestrar tudo isso."
+      },
+      "single-spa-ecommerce": {
+        "title": "Single SPA - Ecommerce",
+        "type": "Projeto de Estudo",
+        "description": "A motivação por trás deste projeto surgiu de uma situação no trabalho: nossa equipe em breve ira iniciar uma transição para uma arquitetura micro-frontend para nossos produtos. Querendo estar à frente da curva e aprofundar meu conhecimento, iniciei esse projeto como uma prova de conceito (ou POC em inglês). Foi uma oportunidade não só para compreender melhor o conceito, mas também para explorar uma ferramenta de gestão do estado diferente das que utilizo."
       }
     },
     "buttons": {

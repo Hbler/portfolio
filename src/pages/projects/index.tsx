@@ -11,10 +11,10 @@ export default function Projects() {
 
   const filterProjects = (str: string) => {
     if (str === "all") {
-      setList([...projects]);
+      setList([...projects.reverse()]);
     } else {
       const filtered = projects.filter((obj) => obj.type === str);
-      setList([...filtered]);
+      setList([...filtered.reverse()]);
     }
   };
 
@@ -55,7 +55,7 @@ export default function Projects() {
           </div>
         </div>
         <div className="list">
-          {list?.map((obj) => (
+          {list?.reverse().map((obj) => (
             <ProjectCard project={obj} key={obj.alias} alias={obj.alias} />
           ))}
         </div>

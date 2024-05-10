@@ -1,6 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { GoMarkGithub } from "react-icons/go";
-import { FaLinkedin, FaTelegram, FaWhatsapp } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTelegram, FaWhatsapp } from "react-icons/fa";
 import { MdFileDownload, MdMail, MdTextSnippet } from "react-icons/md";
 
 import { Section } from "./style";
@@ -38,7 +37,7 @@ export default function Links({ windowSize }: Props) {
                 target="_blank"
                 rel="noreferrer"
               >
-                <GoMarkGithub />
+                <FaGithub />
                 <h3>{t("links.github.title")}</h3>
               </a>
               <p>{t("links.github.text")}</p>

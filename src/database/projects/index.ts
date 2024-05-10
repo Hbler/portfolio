@@ -159,4 +159,12 @@ export const projects = [
     app: "https://youtu.be/KMYiDjtqNvw",
     img: "./assets/img/ng-cash.png",
   },
+  {
+    alias: "single-spa-ecommerce",
+    repo: "https://github.com/Hbler/vue-ts-pokedex",
+    type: "study",
+    video: "",
+    app: "",
+    img: "./assets/img/single-spa.png",
+  },
 ];

@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
-import { GoMarkGithub } from "react-icons/go";
 import { MdExitToApp, MdOndemandVideo } from "react-icons/md";
+import { FaGithub } from "react-icons/fa";
 
 import { Card } from "./style";
 
@@ -34,7 +34,7 @@ export default function ProjectCard({ project, alias }: Project) {
       <div className="links">
         {project.repo && (
           <a href={project.repo} target="_blank" rel="noreferrer">
-            <GoMarkGithub />
+            <FaGithub />
             {t(`projects.buttons.repo`)}
           </a>
         )}
