@@ -13,43 +13,45 @@ export const mq = breakpoints.map((bp) => `@media (min-width: ${bp}px)`);
 
 export const GlobalStyle = createGlobalStyle<{ theme: Theme }>`
 @font-face {
-    font-family: "Neue Haas Grotestk Display";
+    font-family: "Neue Haas Grotesk Display";
     font-style: normal;
     font-weight: 200;
     src: url(${HaasGrotesk200});
 }
 @font-face {
-    font-family: "Neue Haas Grotestk Display";
+    font-family: "Neue Haas Grotesk Display";
     font-style: normal;
     font-weight: 300;
     src: url(${HaasGrotesk300});
 }
 @font-face {
-    font-family: "Neue Haas Grotestk Display";
+    font-family: "Neue Haas Grotesk Display";
     font-style: normal;
     font-weight: 400;
     src: url(${HaasGrotesk400});
 }
 @font-face {
-    font-family: "Neue Haas Grotestk Display";
+    font-family: "Neue Haas Grotesk Display";
     font-style: normal;
     font-weight: 500;
     src: url(${HaasGrotesk500});
 }
 @font-face {
-    font-family: "Neue Haas Grotestk Display";
+    font-family: "Neue Haas Grotesk Display";
     font-style: normal;
     font-weight: 700;
     src: url(${HaasGrotesk700});
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 *{
     margin: 0;
     padding: 0;
-    transition: 0.2s;
     box-sizing: border-box;
-    scroll-behavior: smooth;
-    font-family: "Neue Haas Grotestk Display", sans-serif;
+    font-family: "Neue Haas Grotesk Display", sans-serif;
 
     ::-webkit-scrollbar { /*  the entire scrollbar. */
     width: 5px;
@@ -100,10 +102,15 @@ a{
     font-weight: 700;
     text-decoration: none;
     color: ${({ theme: { link } }) => link};
+    transition: color 0.2s;
 
     :hover{
         color: ${({ theme: { highlight } }) => highlight};
     }
+}
+
+button {
+    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
 }
 
 ul, ol{

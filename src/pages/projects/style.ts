@@ -48,7 +48,7 @@ export const Section = styled.main`
       display: flex;
       overflow-x: scroll;
 
-      scroll-snap-type: both mandatory;
+      scroll-snap-type: x mandatory;
     }
 
     ${mq[1]} {
@@ -66,7 +66,7 @@ export const Section = styled.main`
     }
 
     ${mq[2]} {
-      height: 100vh;
+      min-height: 100svh;
       padding: 100px 2rem 0.8rem;
 
       background-repeat: no-repeat;

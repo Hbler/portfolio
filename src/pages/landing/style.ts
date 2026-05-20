@@ -54,8 +54,7 @@ export const Section = styled.section`
     }
 
     & > div {
-      max-width: 350px;
-      margin: auto;
+      width: 100%;
       padding: 2rem 0;
 
       gap: 3rem;
@@ -71,7 +70,7 @@ export const Section = styled.section`
     }
 
     ${mq[2]} {
-      height: 100vh;
+      min-height: 100svh;
       padding: 2rem;
       padding-top: 80px;
 

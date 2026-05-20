@@ -22,7 +22,6 @@ export default function Landing() {
                 options={{
                   strings: [
                     t("landing.dev.front"),
-                    t("landing.dev.back"),
                     t("landing.dev.full"),
                   ],
                   autoStart: true,

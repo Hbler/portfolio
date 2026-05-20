@@ -40,8 +40,7 @@ export const Section = styled.section`
     }
 
     & > div {
-      max-width: 350px;
-      margin: auto;
+      width: 100%;
 
       display: flex;
       flex-direction: column;
@@ -97,7 +96,7 @@ export const Section = styled.section`
     }
 
     ${mq[2]} {
-      height: 100vh;
+      min-height: 100svh;
       padding: 100px 2rem 0.8rem;
 
       display: flex;
@@ -115,7 +114,7 @@ export const Section = styled.section`
 
       & > div:nth-child(2),
       .text {
-        overflow: scroll;
+        overflow: auto;
       }
 
       .title {

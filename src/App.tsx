@@ -28,7 +28,7 @@ function App() {
     setWindowSize({ windowWidth, windowHeight });
   };
   return (
-    <Suspense fallback="loading">
+    <Suspense fallback={<div style={{ minHeight: "100vh", background: "#000" }} />}>
       <div className="App">
         {windowSize.windowWidth < 576 ? <MobileMenu /> : <Menu />}
         <Landing />

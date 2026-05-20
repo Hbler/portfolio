@@ -51,8 +51,7 @@ export const Section = styled.footer`
     }
 
     & > div {
-      max-width: 350px;
-      margin: auto;
+      width: 100%;
 
       gap: 1rem;
       display: flex;
@@ -84,7 +83,7 @@ export const Section = styled.footer`
     }
 
     ${mq[2]} {
-      height: 100vh;
+      min-height: 100svh;
       padding: 100px 2rem 0.8rem;
 
       flex-direction: row;
