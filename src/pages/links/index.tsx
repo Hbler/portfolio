@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { FaGithub, FaLinkedin, FaTelegram, FaWhatsapp } from "react-icons/fa";
-import { MdFileDownload, MdMail, MdTextSnippet } from "react-icons/md";
+import { MdMail, MdTextSnippet } from "react-icons/md";
 
 import { Section } from "./style";
 
@@ -12,7 +12,8 @@ interface Props {
 }
 
 export default function Links({ windowSize }: Props) {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const resumeHref = i18n.language.startsWith("pt") ? "/resume/pt" : "/resume";
 
   return (
     <Section id="links">
@@ -43,27 +44,15 @@ export default function Links({ windowSize }: Props) {
               <p>{t("links.github.text")}</p>
             </section>
             <section>
-              <h3>
+              <a
+                href={resumeHref}
+                target="_blank"
+                rel="noreferrer"
+              >
                 <MdTextSnippet />
-                {t("links.resume.title")}
-              </h3>
+                <h3>{t("links.resume.title")}</h3>
+              </a>
               <p>{t("links.resume.text")}</p>
-              <a
-                href="/assets/resume/resume_hugo-bler_en.pdf"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <MdFileDownload />
-                English Version
-              </a>
-              <a
-                href="/assets/resume/resume_hugo-bler_pt.pdf"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <MdFileDownload />
-                Versão em Portugês
-              </a>
             </section>
           </div>
         </div>

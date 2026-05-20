@@ -22,13 +22,13 @@
     },
     "text": "Olá, Eu sou o Hugo um <span>Cientista de Possibilidades</span> atuando na intercessão de desenvolvimento e design.<br /><br />Experimentando e aprendendo com o novo e o tradicional para <span>criar experiências originais</span> e <span>resolver os problemas</span> do nosso tempo.",
     "scroll": "role para saber mais",
-    "update": "atualizado em: Nov / 22"
+    "update": "atualizado em: Mai / 26"
   },
   "about": {
     "title": "Sobre",
-    "part1": "Desde que ingressei no Ouribank em dezembro de 2022, tenho desempenhado um papel fundamental em uma equipe que trabalha no desenvolvimento de um produto em crescimento, ao mesmo tempo que contribuo ocasionalmente para outros projetos internos e promovo a colaboração eficaz em equipes multidisciplinares.",
-    "part2": "Estou aprimorando ativamente minha experiência em metodologias ágeis e obtendo insights valiosos sobre funções de gerenciamento de projetos, como Líder Técnico e Proprietário de Produto.",
-    "part3": "Além de minhas habilidades técnicas, sou reconhecido por minhas habilidades interpessoais excepcionais, incluindo comunicação clara, trabalho colaborativo em equipe, adaptabilidade a novos ambientes e manutenção de um equilíbrio saudável entre vida pessoal e profissional. Sou profundamente apaixonado pelo aprendizado contínuo e me mantenho atualizado com as últimas tendências e melhores práticas do setor.",
+    "part1": "9 anos de experiência — 4 como Engenheiro de Software Frontend e 5 como Designer Gráfico e Consultor de Branding. Atualmente Engenheiro de Software no Ouribank, tendo entregue controle de acesso baseado em perfis (RBAC), autenticação multifator (MFA com AWS Cognito), e liderado a migração de um frontend monolítico para arquitetura de micro-frontends.",
+    "part2": "Minha formação em design me dá uma perspectiva diferente no trabalho de frontend. Penso em interfaces como experiências, não apenas implementações — o que me permite unir profundidade técnica e sensibilidade de design em cada produto que construo.",
+    "part3": "Sou movido pela interseção entre engenharia e design, e pela ideia de construir produtos que não são só funcionais, mas genuinamente bem feitos.",
     "techs": {
       "title": "Teconologias & Softwares",
       "most": "Maior Experiênica",
@@ -170,7 +170,7 @@
     },
     "resume": {
       "title": "Currículo",
-      "text": "Baixe a versão mais recente do meu currículo."
+      "text": "Veja meu currículo atualizado — otimizado para ATS e disponível para salvar como PDF."
     },
     "whats": {
       "title": "WhatsApp",

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hugo Bler — Currículo</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 11pt;
+      line-height: 1.5;
+      color: #000;
+      max-width: 8.5in;
+      margin: 0 auto;
+      padding: 0.75in 1in;
+    }
+
+    /* --- Cabeçalho --- */
+
+    header {
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 20pt;
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+
+    .contact {
+      font-size: 10pt;
+      color: #333;
+    }
+
+    .contact a {
+      color: #000;
+      text-decoration: none;
+    }
+
+    .contact .sep {
+      margin: 0 5px;
+      color: #aaa;
+    }
+
+    /* --- Seções --- */
+
+    section {
+      margin-bottom: 18px;
+    }
+
+    h2 {
+      font-size: 10.5pt;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      border-bottom: 1.5px solid #000;
+      padding-bottom: 2px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 10.5pt;
+    }
+
+    /* --- Experiência --- */
+
+    .job {
+      margin-bottom: 14px;
+    }
+
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 12px;
+    }
+
+    .job-title {
+      font-weight: bold;
+      font-size: 10.5pt;
+    }
+
+    .job-date {
+      font-size: 10pt;
+      color: #333;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    .job-company {
+      font-size: 10pt;
+      color: #333;
+      margin-bottom: 5px;
+    }
+
+    ul {
+      padding-left: 18px;
+    }
+
+    li {
+      font-size: 10.5pt;
+      margin-bottom: 3px;
+    }
+
+    /* --- Habilidades --- */
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: max-content 1fr;
+      gap: 4px 12px;
+      font-size: 10.5pt;
+    }
+
+    .skill-label {
+      font-weight: bold;
+    }
+
+    /* --- Formação --- */
+
+    .edu-item {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      font-size: 10.5pt;
+      margin-bottom: 5px;
+    }
+
+    .edu-date {
+      white-space: nowrap;
+      flex-shrink: 0;
+      color: #333;
+    }
+
+    /* --- Impressão --- */
+
+    @media print {
+      body {
+        padding: 0.5in 0.75in;
+      }
+
+      a {
+        color: #000;
+        text-decoration: none;
+      }
+
+      .job {
+        page-break-inside: avoid;
+      }
+
+      section {
+        page-break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- CABEÇALHO -->
+  <header>
+    <h1>Hugo Bler</h1>
+    <div class="contact">
+      <a href="mailto:mail.hbler@gmail.com">mail.hbler@gmail.com</a>
+      <span class="sep">|</span>
+      +55 11 9 5429 4654
+      <span class="sep">|</span>
+      <a href="https://linkedin.com/in/hbler">linkedin.com/in/hbler</a>
+      <span class="sep">|</span>
+      <a href="https://github.com/Hbler">github.com/Hbler</a>
+      <span class="sep">|</span>
+      <a href="https://portfolio.hbler.com">portfolio.hbler.com</a>
+      <span class="sep">|</span>
+      Guarulhos / São Paulo, Brasil
+    </div>
+  </header>
+
+  <!--
+    =====================================================
+    RESUMO — reescreva este parágrafo para cada vaga,
+    alinhando com a linguagem e requisitos da posição
+    =====================================================
+  -->
+  <section id="resumo">
+    <h2>Resumo</h2>
+    <p>
+      Engenheiro de Software Frontend com 9 anos de experiência — 4 anos desenvolvendo aplicações
+      React, TypeScript e Redux em produção, e 5 anos anteriores como Designer Gráfico e Consultor
+      de Branding. Especializado em plataformas web seguras e escaláveis: autenticação (RBAC, MFA,
+      JWT), internacionalização (i18next), acessibilidade (WCAG) e arquitetura de micro-frontends.
+      Proficiente em AWS (Cognito, Lambda, ECS), APIs RESTful, CI/CD (GitHub Actions, GitLab) e
+      desenvolvimento orientado a testes (Jest, React Testing Library, BDD). Histórico de
+      colaboração multifuncional e liderança técnica em plataformas bancárias e SaaS.
+    </p>
+  </section>
+
+  <!--
+    =====================================================
+    HABILIDADES — reordene as categorias e destaque as
+    tecnologias mais relevantes para cada vaga
+    =====================================================
+  -->
+  <section id="habilidades">
+    <h2>Habilidades</h2>
+    <div class="skills-grid">
+      <span class="skill-label">Principal:</span>
+      <span>React, TypeScript, JavaScript (ES6+), Redux, HTML5, CSS3, Tailwind, i18next, Micro-frontends, GraphQL, APIs REST, Node.js, AWS (Cognito, Lambda, ECS), JWT, RBAC, MFA, Git, CI/CD, Jest, React Testing Library, BDD, DataDog, Scrum, Acessibilidade WCAG</span>
+
+      <span class="skill-label">Familiaridade:</span>
+      <span>NestJS, Docker, PostgreSQL, Python, Django, TypeORM, Styled Components, Zustand, Cypress, Context API, GitLab, DynamoDB</span>
+    </div>
+  </section>
+
+  <!-- EXPERIÊNCIA -->
+  <section id="experiencia">
+    <h2>Experiência</h2>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Engenheiro de Software</span>
+        <span class="job-date">Jun 2024 – Presente</span>
+      </div>
+      <div class="job-company">Ouribank · São Paulo, Brasil</div>
+      <ul>
+        <li>Arquitetei um sistema escalável de gestão de usuários com controle de acesso baseado em perfis (RBAC) utilizando React, Redux, TypeScript e AWS Cognito, aumentando a segurança e a flexibilidade da plataforma.</li>
+        <li>Entreguei autenticação multifator (MFA) via AWS Cognito (TOTP) e AWS SDK, reduzindo riscos de acesso não autorizado e fortalecendo a conformidade em operações financeiras sensíveis.</li>
+        <li>Liderando a transformação para micro-frontends — modularizando funcionalidades monolíticas em micro-frontends dedicados e serviços BFF (AWS Lambda, ECS), melhorando a velocidade de entrega e a autonomia dos times.</li>
+        <li>Conduzindo a migração do AWS Cognito para um sistema de autenticação interno, preservando os grupos de permissão RBAC e aprimorando fluxos de acesso, mensageria e conformidade.</li>
+        <li>Mantive qualidade e confiabilidade do código via pipelines de CI/CD, práticas de BDD, code reviews e monitoramento com DataDog em funcionalidades críticas do sistema bancário.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Engenheiro de Software Júnior</span>
+        <span class="job-date">Dez 2022 – Jun 2024</span>
+      </div>
+      <div class="job-company">Ouribank · São Paulo, Brasil</div>
+      <ul>
+        <li>Liderei a iniciativa de internacionalização (i18n) de ponta a ponta utilizando React, TypeScript e i18next; desenvolvi um fluxo customizado para arquivos de tradução, viabilizando a expansão para mercados internacionais.</li>
+        <li>Implementei funcionalidades de múltiplas contas bancárias, incluindo visualização de saldo, pagamentos via TED/PIX, câmbio em tempo real e transparência de tarifas usando React, Redux, TypeScript e APIs internas.</li>
+        <li>Aprimorei acessibilidade e UX em funcionalidades-chave da plataforma aplicando desenvolvimento orientado a componentes, gerenciamento de estado e princípios de acessibilidade WCAG em uma base de código ES6+ moderna.</li>
+        <li>Implementei padrões de autenticação segura e boas práticas de segurança web (JWT, prevenção de XSS/CSRF) para proteger funcionalidades sensíveis em ambientes com alta exigência de conformidade.</li>
+        <li>Contribuí para integrações de CI/CD, Scrum diário e code reviews, apoiando deployments automatizados e processos robustos de garantia de qualidade em times multifuncionais.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Peer Coach</span>
+        <span class="job-date">Mar 2022 – Dez 2022</span>
+      </div>
+      <div class="job-company">Kenzie Academy Brasil · São Paulo, Brasil</div>
+      <ul>
+        <li>Mentorei 30+ estudantes em React, TypeScript, Redux, Node.js, APIs REST e metodologias ágeis; atingi taxa de resolução de problemas acima de 90%.</li>
+        <li>Gerenciei quatro squads ágeis com Scrum, conduzindo standups diários e code reviews — elevei a produtividade dos times em 60% e garanti a entrega de todos os projetos capstone no prazo.</li>
+        <li>Orquestrei a entrega de múltiplos projetos capstone em React/Node.js integrando arquitetura escalável, consumo de APIs RESTful e desenvolvimento orientado a testes (Jest, React Testing Library) — 100% de taxa de conclusão.</li>
+        <li>Mantive taxa de entrega no prazo de 95% por meio de automação de tarefas, code reviews e fluxos de controle de versão com GitHub em todos os squads.</li>
+      </ul>
+    </div>
+
+  </section>
+
+  <!-- FORMAÇÃO -->
+  <section id="formacao">
+    <h2>Formação</h2>
+    <div class="edu-item">
+      <span>Desenvolvimento Web FullStack · Kenzie Academy Brasil</span>
+      <span class="edu-date">Jan 2022 – Jan 2023</span>
+    </div>
+    <div class="edu-item">
+      <span>Design Gráfico e de Produto · Universidade Guarulhos</span>
+      <span class="edu-date">Jul 2012 – Jul 2015</span>
+    </div>
+  </section>
+
+  <!-- CERTIFICAÇÕES -->
+  <section id="certificacoes">
+    <h2>Certificações</h2>
+    <div class="skills-grid">
+      <span class="skill-label">Inglês:</span>
+      <span>EFSET English Certificate — C2 Proficient (84/100)</span>
+      <span class="skill-label">Segurança:</span>
+      <span>Segurança da Informação</span>
+      <span class="skill-label">Go:</span>
+      <span>Programming with Google Go Specialization · Functions, Methods, and Interfaces in Go</span>
+      <span class="skill-label">Node.js:</span>
+      <span>Certificação Node.js</span>
+    </div>
+  </section>
+
+  <!-- IDIOMAS -->
+  <section id="idiomas">
+    <h2>Idiomas</h2>
+    <div class="skills-grid">
+      <span class="skill-label">Português:</span>
+      <span>Nativo</span>
+      <span class="skill-label">Inglês:</span>
+      <span>Proficiente — C2</span>
+      <span class="skill-label">Francês:</span>
+      <span>Básico</span>
+    </div>
+  </section>
+
+</body>
+</html>

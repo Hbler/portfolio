@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hugo Bler — Resume</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 11pt;
+      line-height: 1.5;
+      color: #000;
+      max-width: 8.5in;
+      margin: 0 auto;
+      padding: 0.75in 1in;
+    }
+
+    /* --- Header --- */
+
+    header {
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 20pt;
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+
+    .contact {
+      font-size: 10pt;
+      color: #333;
+    }
+
+    .contact a {
+      color: #000;
+      text-decoration: none;
+    }
+
+    .contact .sep {
+      margin: 0 5px;
+      color: #aaa;
+    }
+
+    /* --- Sections --- */
+
+    section {
+      margin-bottom: 18px;
+    }
+
+    h2 {
+      font-size: 10.5pt;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      border-bottom: 1.5px solid #000;
+      padding-bottom: 2px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 10.5pt;
+    }
+
+    /* --- Experience --- */
+
+    .job {
+      margin-bottom: 14px;
+    }
+
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 12px;
+    }
+
+    .job-title {
+      font-weight: bold;
+      font-size: 10.5pt;
+    }
+
+    .job-date {
+      font-size: 10pt;
+      color: #333;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    .job-company {
+      font-size: 10pt;
+      color: #333;
+      margin-bottom: 5px;
+    }
+
+    ul {
+      padding-left: 18px;
+    }
+
+    li {
+      font-size: 10.5pt;
+      margin-bottom: 3px;
+    }
+
+    /* --- Skills --- */
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: max-content 1fr;
+      gap: 4px 12px;
+      font-size: 10.5pt;
+    }
+
+    .skill-label {
+      font-weight: bold;
+    }
+
+    /* --- Education --- */
+
+    .edu-item {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      font-size: 10.5pt;
+      margin-bottom: 5px;
+    }
+
+    .edu-date {
+      white-space: nowrap;
+      flex-shrink: 0;
+      color: #333;
+    }
+
+    /* --- Print --- */
+
+    @media print {
+      body {
+        padding: 0.5in 0.75in;
+      }
+
+      a {
+        color: #000;
+        text-decoration: none;
+      }
+
+      .job {
+        page-break-inside: avoid;
+      }
+
+      section {
+        page-break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>Hugo Bler</h1>
+    <div class="contact">
+      <a href="mailto:mail.hbler@gmail.com">mail.hbler@gmail.com</a>
+      <span class="sep">|</span>
+      +55 11 9 5429 4654
+      <span class="sep">|</span>
+      <a href="https://linkedin.com/in/hbler">linkedin.com/in/hbler</a>
+      <span class="sep">|</span>
+      <a href="https://github.com/Hbler">github.com/Hbler</a>
+      <span class="sep">|</span>
+      <a href="https://portfolio.hbler.com">portfolio.hbler.com</a>
+      <span class="sep">|</span>
+      Guarulhos / São Paulo, Brazil
+    </div>
+  </header>
+
+  <!--
+    =====================================================
+    SUMMARY — rewrite this paragraph for each application
+    to match the role's language and key requirements
+    =====================================================
+  -->
+  <section id="summary">
+    <h2>Summary</h2>
+    <p>
+      Frontend Software Engineer with 9 years of experience — 4 years specializing in React,
+      TypeScript, and Redux, and 5 years prior as a Designer and Branding Management Consultant.
+      Specialized in building secure, scalable, and user-centered web applications: authentication
+      (RBAC, MFA, JWT), internationalization (i18next), accessibility (WCAG), and micro-frontend
+      architecture. Proficient in AWS (Cognito, Lambda, ECS), RESTful APIs, CI/CD (GitHub Actions,
+      GitLab), and test-driven development (Jest, React Testing Library, BDD). Track record of
+      cross-functional collaboration and technical leadership on banking and SaaS platforms.
+    </p>
+  </section>
+
+  <!--
+    =====================================================
+    SKILLS — reorder categories and surface relevant
+    technologies first to match the role's requirements
+    =====================================================
+  -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <span class="skill-label">Primary:</span>
+      <span>React, TypeScript, JavaScript (ES6+), Redux, HTML5, CSS3, Tailwind, i18next, Micro-frontends, GraphQL, REST APIs, Node.js, AWS (Cognito, Lambda, ECS), JWT, RBAC, MFA, Git, CI/CD, Jest, React Testing Library, BDD, DataDog, Scrum, WCAG Accessibility</span>
+
+      <span class="skill-label">Familiar:</span>
+      <span>NestJS, Docker, PostgreSQL, Python, Django, TypeORM, Styled Components, Zustand, Cypress, Context API, GitLab, DynamoDB</span>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <h2>Experience</h2>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Software Engineer</span>
+        <span class="job-date">Jun 2024 – Present</span>
+      </div>
+      <div class="job-company">Ouribank · São Paulo, Brazil</div>
+      <ul>
+        <li>Architected a scalable user management system with role-based access control (RBAC) using React, Redux, TypeScript, and AWS Cognito, enhancing security, flexibility, and platform growth readiness.</li>
+        <li>Delivered multifactor authentication (MFA) using AWS Cognito (TOTP) and AWS SDK, reducing unauthorized access risks and strengthening compliance for sensitive financial operations.</li>
+        <li>Spearheading micro-frontend transformation — modularizing legacy monolithic features into dedicated micro-frontends and BFF services (AWS Lambda, ECS), improving deployment velocity and team autonomy.</li>
+        <li>Leading migration from AWS Cognito to an internally developed authentication system, preserving RBAC permission groups while upgrading access flows, messaging, and compliance standards.</li>
+        <li>Maintained code quality and reliability via CI/CD pipelines, BDD practices, peer code reviews, and observability tooling (DataDog) across mission-critical banking features.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Junior Software Engineer</span>
+        <span class="job-date">Dec 2022 – Jun 2024</span>
+      </div>
+      <div class="job-company">Ouribank · São Paulo, Brazil</div>
+      <ul>
+        <li>Led end-to-end internationalization (i18n) initiative using React, TypeScript, and i18next; engineered a custom workflow for localized translation files, enabling efficient scaling to international markets.</li>
+        <li>Implemented multi-account banking features including balance views, TED/PIX payments, real-time currency exchange, and fee transparency using React, Redux, TypeScript, and internal APIs.</li>
+        <li>Enhanced accessibility and UX across key platform features applying component-driven development, robust state management, and WCAG accessibility principles within a modern ES6+ codebase.</li>
+        <li>Implemented secure authentication patterns and web security best practices (JWT, XSS/CSRF prevention) to safeguard sensitive features in compliance-heavy environments.</li>
+        <li>Contributed to CI/CD pipeline integrations, daily Scrum, and code reviews, supporting automated deployments and robust quality assurance across cross-functional teams.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Peer Coach</span>
+        <span class="job-date">Mar 2022 – Dec 2022</span>
+      </div>
+      <div class="job-company">Kenzie Academy Brasil · São Paulo, Brazil</div>
+      <ul>
+        <li>Mentored 30+ students across React, TypeScript, Redux, Node.js, REST APIs, and Agile methodologies; achieved 90%+ project issue resolution rate.</li>
+        <li>Managed four Agile squads using Scrum, conducting daily standups and code reviews — elevated team productivity by 60% and ensured all capstone projects were delivered on schedule.</li>
+        <li>Orchestrated delivery of multiple React/Node.js capstone projects integrating scalable architecture, RESTful APIs, and test-driven development (Jest, React Testing Library) — 100% completion rate.</li>
+        <li>Maintained a 95% on-time delivery rate through task automation, peer code reviews, and GitHub-based version control workflows across all squads.</li>
+      </ul>
+    </div>
+
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <h2>Education</h2>
+    <div class="edu-item">
+      <span>FullStack Web Development · Kenzie Academy Brasil</span>
+      <span class="edu-date">Jan 2022 – Jan 2023</span>
+    </div>
+    <div class="edu-item">
+      <span>Graphic and Product Design · Universidade Guarulhos</span>
+      <span class="edu-date">Jul 2012 – Jul 2015</span>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <div class="skills-grid">
+      <span class="skill-label">English:</span>
+      <span>EFSET English Certificate — C2 Proficient (84/100)</span>
+      <span class="skill-label">Security:</span>
+      <span>Segurança da Informação</span>
+      <span class="skill-label">Go:</span>
+      <span>Programming with Google Go Specialization · Functions, Methods, and Interfaces in Go</span>
+      <span class="skill-label">Node.js:</span>
+      <span>Node.js Certification</span>
+    </div>
+  </section>
+
+  <!-- LANGUAGES -->
+  <section id="languages">
+    <h2>Languages</h2>
+    <div class="skills-grid">
+      <span class="skill-label">Portuguese:</span>
+      <span>Native</span>
+      <span class="skill-label">English:</span>
+      <span>Proficient — C2</span>
+      <span class="skill-label">French:</span>
+      <span>Elementary</span>
+    </div>
+  </section>
+
+</body>
+</html>

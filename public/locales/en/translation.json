@@ -22,13 +22,13 @@
     },
     "text": "Hello, I'm Hugo a <span>Possibilities Scientist</span> working in the intersection of development and design. <br /><br />Experimenting and learning with the new and the traditional to <span>create original expereriences</span> and <span>solve problems</span> of our time.",
     "scroll": "scroll to learn more",
-    "update": "updated in: May / 24"
+    "update": "updated in: May / 26"
   },
   "about": {
     "title": "About",
-    "part1": "Since joining Ouribank in December 2022, I have played a pivotal role in a squad working on the development of a growing product, while also contributing occasionally to other internal projects and fostering effective collaboration within multidisciplinary teams.",
-    "part2": "I am actively expanding my expertise in agile methodologies and gaining valuable insights into project management roles such as Tech Leader and Product Owner.",
-    "part3": "In addition to my technical skills, I am recognized for my exceptional soft skills, including clear communication, collaborative teamwork, adaptability to new environments, and maintaining a healthy work-life balance. I am deeply passionate about continuous learning and remain updated with the latest industry trends and best practices.",
+    "part1": "9 years of experience — 4 as a Frontend Software Engineer and 5 as a Graphic Designer and Branding Consultant. Currently a Software Engineer at Ouribank, having shipped role-based access control (RBAC), multifactor authentication (MFA with AWS Cognito), and led the migration from a monolithic frontend to a micro-frontend architecture.",
+    "part2": "My background in design gives me a different lens on frontend work. I think about interfaces as experiences, not just implementations — which means I bring both technical depth and design awareness to every product I work on.",
+    "part3": "I'm driven by the intersection of engineering and design, and by building things that are not only functional but genuinely well-crafted.",
     "techs": {
       "title": "Techs & Softwares",
       "most": "Most Experience",
@@ -170,7 +170,7 @@
     },
     "resume": {
       "title": "Resumé",
-      "text": "Download the latest version of my resumé."
+      "text": "View my latest resumé — optimized for ATS and printable as PDF."
     },
     "whats": {
       "title": "WhatsApp",
