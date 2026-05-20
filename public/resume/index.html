@@ -137,6 +137,33 @@
       color: #333;
     }
 
+    /* --- Print button --- */
+
+    .print-btn {
+      display: block;
+      margin: 0 auto 24px;
+      padding: 8px 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10.5pt;
+      cursor: pointer;
+      border: 1.5px solid #000;
+      background: #000;
+      color: #fff;
+    }
+
+    .print-btn:hover {
+      background: #333;
+      border-color: #333;
+    }
+
+    .print-hint {
+      text-align: center;
+      font-size: 9.5pt;
+      color: #666;
+      margin-bottom: 24px;
+      margin-top: -16px;
+    }
+
     /* --- Print --- */
 
     @media print {
@@ -156,10 +183,18 @@
       section {
         page-break-inside: avoid;
       }
+
+      .print-btn,
+      .print-hint {
+        display: none;
+      }
     }
   </style>
 </head>
 <body>
+
+  <button class="print-btn" onclick="window.print()">Save as PDF</button>
+  <p class="print-hint">In the print dialogue, set the destination to "Save as PDF".</p>
 
   <!-- HEADER -->
   <header>
