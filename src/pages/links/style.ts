@@ -63,6 +63,7 @@ export const Section = styled.footer`
 
       gap: 2rem;
       display: flex;
+      flex-direction: column;
       flex-wrap: wrap;
 
       section {
@@ -106,8 +107,10 @@ export const Section = styled.footer`
       }
 
       .link_list {
-        gap: unset;
+        row-gap: 2rem;
+        column-gap: unset;
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content: space-between;
 
         section {
